@@ -10,7 +10,7 @@ export const GitHubStats = async () => {
     <>
       <StatCard
         title={'GitHub Repositories'}
-        href={'https://github.com/jahirfiquitiva?tab=repositories'}
+        href={'https://github.com/hiradary?tab=repositories'}
         text={'stars on GitHub'}
         value={githubStats?.stars}
         iconPath={star}
@@ -18,7 +18,7 @@ export const GitHubStats = async () => {
       />
       <StatCard
         title={'GitHub'}
-        href={'https://github.com/jahirfiquitiva'}
+        href={'https://github.com/hiradary'}
         text={'followers on GitHub'}
         value={githubStats?.followers}
         iconPath={gitHubOutline}

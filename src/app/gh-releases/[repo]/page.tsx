@@ -65,6 +65,6 @@ export async function generateMetadata(
     title: `${repo} Release Download – Jahir Fiquitiva`,
     description: `Download the latest release artifacts from the ${repo} repository on GitHub`,
     image: buildOgImageUrl(),
-    exactUrl: `https://jahir.dev/gh-releases/${repo}`,
+    exactUrl: `https://hiradary.me/gh-releases/${repo}`,
   });
 }

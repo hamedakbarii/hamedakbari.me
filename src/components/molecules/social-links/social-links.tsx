@@ -5,7 +5,6 @@ import {
   linkedInOutline,
   twitterOutline,
   mdiInstagram,
-  bluesky,
 } from '@/components/icons';
 
 import { BackToTopLink } from './back-to-top';
@@ -16,7 +15,6 @@ import {
   LinkedInLink,
   TwitterLink,
   InstagramLink,
-  BlueskyLink,
 } from './social-links.styles';
 
 interface SocialLinksProps {
@@ -29,35 +27,27 @@ export const SocialLinks = (props: SocialLinksProps) => {
   return (
     <SocialLinksContainer aria-label={'Social links'}>
       <SocialLinkItem>
-        <GitHubLink title={'GitHub'} href={'https://github.com/jahirfiquitiva'}>
+        <GitHubLink title={'GitHub'} href={'https://github.com/hiradary'}>
           <Icon path={gitHubOutline} size={iconSize} />
         </GitHubLink>
       </SocialLinkItem>
       <SocialLinkItem>
         <LinkedInLink
           title={'LinkedIn'}
-          href={'https://linkedin.com/in/jahirfiquitiva'}
+          href={'https://linkedin.com/in/hiradarshadi'}
         >
           <Icon path={linkedInOutline} size={iconSize} />
         </LinkedInLink>
       </SocialLinkItem>
       <SocialLinkItem>
-        <BlueskyLink title={'Bluesky'} href={'https://bsky.jahir.dev'}>
-          <Icon path={bluesky} size={iconSize} />
-        </BlueskyLink>
-      </SocialLinkItem>
-      <SocialLinkItem>
-        <TwitterLink
-          title={'Twitter'}
-          href={'https://twitter.com/jahirfiquitiva'}
-        >
+        <TwitterLink title={'X'} href={'https://x.com/hiradary'}>
           <Icon path={twitterOutline} size={iconSize} />
         </TwitterLink>
       </SocialLinkItem>
       <SocialLinkItem>
         <InstagramLink
           title={'Instagram'}
-          href={'https://instagram.com/jahirfiquitiva'}
+          href={'https://instagram.com/hiradary'}
         >
           <Icon path={mdiInstagram} size={iconSize} />
         </InstagramLink>

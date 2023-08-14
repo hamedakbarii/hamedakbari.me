@@ -4,8 +4,8 @@ const baseUrl =
     : process.env.VERCEL_ENV === 'preview'
     ? process.env.VERCEL_URL
       ? `https://${process.env.VERCEL_URL}`
-      : 'https://jahir.dev'
-    : 'https://jahir.dev';
+      : 'https://hiradary.me'
+    : 'https://hiradary.me';
 
 export const buildOgImageUrl = (
   path?: string,

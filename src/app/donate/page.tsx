@@ -35,11 +35,11 @@ export default async function DonatePage() {
 }
 
 export const metadata = getStaticMetadata({
-  title: 'Donate – Jahir Fiquitiva',
+  title: 'Donate – Hirad Arshadi',
   description:
     // eslint-disable-next-line max-len
-    'Support Jahir Fiquitiva. Donate or sponsor him as a recognition for his work on different projects.',
-  exactUrl: 'https://jahir.dev/donate',
+    'Support Hirad Arshadi. Donate or sponsor him as a recognition for his work on different projects.',
+  exactUrl: 'https://hiradary.me/donate',
   keywords: [
     'donate',
     'support',

@@ -1,19 +1,19 @@
 name: Report a Bug 🐛
 description: File a bug report
-labels: ["bug"]
+labels: ['bug']
 body:
   - type: markdown
     attributes:
       value: |
         *Thanks for taking the time to fill out this bug report!*
-        
+
         ---
-        
+
   - type: checkboxes
     id: requirements
     attributes:
       label: Requirements
-      description: "Please make sure you have checked all of the following:"
+      description: 'Please make sure you have checked all of the following:'
       options:
         - label: I have verified there are no duplicate active or recent bugs, questions, or requests
           required: true
@@ -21,14 +21,14 @@ body:
     attributes:
       value: |
         --- 
-        
+
         # Website and device information:
   - type: input
     id: url
     attributes:
       label: URL
       description: What is the url where the bug is reproducible?
-      placeholder: ex. jahir.dev/about
+      placeholder: ex. hiradary.me/about
     validations:
       required: true
   - type: input
@@ -58,7 +58,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        --- 
+        ---
   - type: textarea
     id: what-happened
     attributes:

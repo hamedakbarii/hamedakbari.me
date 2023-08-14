@@ -1,4 +1,4 @@
-const userApiUrl = 'https://api.github.com/users/jahirfiquitiva';
+const userApiUrl = 'https://api.github.com/users/hiradary';
 const { GITHUB_API_TOKEN: githubApiToken = '' } = process.env;
 const authHeaders =
   githubApiToken && githubApiToken.length > 0

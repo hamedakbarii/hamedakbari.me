@@ -10,7 +10,7 @@ const allBlogs = allReadableBlogs
 
 const formatImageUrl = (url?: string) => {
   if (!url) return '';
-  if (url.startsWith('/')) return `https://jahir.dev${url}`;
+  if (url.startsWith('/')) return `https://hiradary.me${url}`;
   return url;
 };
 
@@ -25,7 +25,7 @@ const buildDescriptionHtml = (post: Blog): string => {
   if (post.link)
     description += `<b><a href="${post.link}">Read more...</a></b><br/><br/>`;
   else
-    description += `<b><a href="https://jahir.dev/blog/${post.slug}">Read more...</a></b><br/><br/>`;
+    description += `<b><a href="https://hiradary.me/blog/${post.slug}">Read more...</a></b><br/><br/>`;
 
   if (post.hero) {
     description += `<p><img src="${formatImageUrl(post.hero)}" `;
@@ -38,7 +38,7 @@ const getAllPostRssData = (post: Blog) => {
   const descriptionHtml = buildDescriptionHtml(post);
   return {
     title: post.title,
-    url: post.link || `https://jahir.dev/blog/${post.slug}`,
+    url: post.link || `https://hiradary.me/blog/${post.slug}`,
     date: post.date,
     description: post.excerpt,
     html: descriptionHtml,
@@ -108,21 +108,21 @@ const buildFeed = (posts: Array<ReturnType<typeof getAllPostRssData>>) => {
 const defaultChannel = {
   'atom:link': {
     _attr: {
-      href: 'https://jahir.dev/feed.xml',
+      href: 'https://hiradary.me/feed.xml',
       rel: 'self',
       type: 'application/rss+xml',
     },
   },
   lastBuildDate: new Date().toUTCString(),
   language: 'en-US',
-  link: 'https://jahir.dev',
+  link: 'https://hiradary.me',
   title: 'Jahir Fiquitiva',
   description: 'Passionate and creative full-stack developer from Colombia',
-  image_url: 'https://jahir.dev/api/og',
+  image_url: 'https://hiradary.me/api/og',
   image: {
     title: 'Jahir Fiquitiva',
-    link: 'https://jahir.dev',
-    url: 'https://jahir.dev/api/og',
+    link: 'https://hiradary.me',
+    url: 'https://hiradary.me/api/og',
   },
   copyright: `All rights reserved ${new Date().getFullYear()}, Jahir Fiquitiva`,
 };

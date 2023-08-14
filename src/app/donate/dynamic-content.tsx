@@ -27,15 +27,15 @@ export default async function DynamicDonateContent() {
         <p>
           For transparency, these are the latest stats from{' '}
           <Link
-            title={'Sponsor Jahir Fiquitiva on GitHub'}
-            href={'https://github.com/sponsors/jahirfiquitiva'}
+            title={'Sponsor Hirad Arshadi on GitHub'}
+            href={'https://github.com/sponsors/hiradary'}
           >
             GitHub Sponsors
           </Link>{' '}
           and{' '}
           <Link
-            href={'https://buymeacoffee.com/jahirfiquitiva'}
-            title={'Buy Jahir a Pizza'}
+            href={'https://buymeacoffee.com/hiradary'}
+            title={'Buy Hirad a Pizza'}
           >
             Buy me a Coffee
           </Link>

@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Intro />
-      <Projects />
-      <Skills />
+      {/* <Projects /> */}
+      {/* <Skills /> */}
     </>
   );
 }

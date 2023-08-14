@@ -29,11 +29,9 @@ export const StyledLogo = tw(Logo)`
 `;
 
 export const StyledImg = tw(Img)`
-  invisible
-  opacity-0
   transform
   -rotate-1
-  scale-0
+  scale-[1.25]
   select-none
   pointer-events-none
   

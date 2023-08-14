@@ -28,10 +28,10 @@ const blogPostStructuredData = (post: Blog): string =>
     dateModified: post.date,
     description: post.excerpt,
     image: buildOgImageUrl('blog', post.title, post.hero),
-    url: `https://jahir.dev/blog/${post.slug}`,
+    url: `https://hiradary.me/blog/${post.slug}`,
     author: {
       '@type': 'Person',
-      name: 'Jahir Fiquitiva',
+      name: 'Hirad Arshadi',
     },
   });
 
@@ -79,7 +79,7 @@ export default function BlogPostPage(context: BlogPageContext) {
             <ButtonLink
               outlined
               title={'Edit blog post content on GitHub'}
-              href={`https://github.com/jahirfiquitiva/jahir.dev/edit/main/content/${post.slug}.mdx`}
+              href={`https://github.com/hiradary/hiradary.me/edit/main/content/${post.slug}.mdx`}
             >
               <Icon path={mdiPencilOutline} size={0.9} />
               <span>Edit on GitHub</span>
@@ -109,10 +109,10 @@ export async function generateMetadata(
   const ogImage = buildOgImageUrl('blog', title, hero);
 
   const metadata = getStaticMetadata({
-    title: `${title} | Blog – Jahir Fiquitiva`,
-    description: excerpt || 'Blog post by Jahir Fiquitiva',
+    title: `${title} | Blog – Hirad Arshadi`,
+    description: excerpt || 'Blog post by Hirad Arshadi',
     image: ogImage,
-    exactUrl: `https://jahir.dev/blog/${slug}`,
+    exactUrl: `https://hiradary.me/blog/${slug}`,
   });
   return {
     ...metadata,

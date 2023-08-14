@@ -5,7 +5,7 @@ import { buildOgImageUrl } from './og';
 type MetaImageStyle = 'summary_large_image' | 'summary';
 
 const defaultLogoImage =
-  'https://jahir.dev/static/images/brand/logo-full-me.png';
+  'https://hiradary.me/static/images/brand/logo-full-me.png';
 
 export const getStaticMetadata = (data: {
   title: string;
@@ -30,11 +30,11 @@ export const getStaticMetadata = (data: {
     title,
     description,
     keywords,
-    authors: [{ name: 'Jahir Fiquitiva', url: 'https://jahir.dev' }],
+    authors: [{ name: 'Hirad Arshadi', url: 'https://hiradary.me' }],
     openGraph: {
       title,
       description,
-      url: exactUrl || 'https://jahir.dev',
+      url: exactUrl || 'https://hiradary.me',
       siteName: title,
       images: [{ url: actualImage }],
       locale: 'en_US',
@@ -45,13 +45,14 @@ export const getStaticMetadata = (data: {
       description,
       images: [{ url: actualImage }],
       card: actualMetaImageStyle,
-      creator: '@jahirfiquitiva',
-      site: '@jahirfiquitiva',
+      creator: '@hiradary',
+      site: '@hiradary',
     },
     verification: {
+      //TODO: figure this out
       google: 'lJwL3cKpjX_Eqp6yEY4hsydJazQl85xv29ZUmEg4oEE',
     },
-    metadataBase: new URL('https://jahir.dev'),
+    metadataBase: new URL('https://hiradary.me'),
   };
 };
 

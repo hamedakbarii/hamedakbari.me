@@ -81,7 +81,7 @@ export const Reactions = () => {
 
     // Submit reactions in production website only
     const hostname = window?.location?.hostname || 'localhost';
-    if (hostname !== 'jahir.dev') return;
+    if (hostname !== 'hiradary.me') return;
 
     const reacted = await incrementReaction?.(key);
     // If reaction was submitted successfully

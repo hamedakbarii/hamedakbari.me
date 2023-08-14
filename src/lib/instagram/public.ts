@@ -42,9 +42,7 @@ interface OfficialResponse {
 
 export const getPublicFeed = async (): Promise<Array<RemoteInstagramPost>> => {
   try {
-    const offResponse = await fetch(
-      'https://www.instagram.com/jahirfiquitiva/?__a=1&__d=1',
-    );
+    const offResponse = await fetch('https://www.instagram.com/hiradary');
     const responseContent = await offResponse.text();
     const { graphql } = JSON.parse(responseContent) as OfficialResponse;
     const posts = graphql.user.edge_owner_to_timeline_media.edges.slice(0, 6);

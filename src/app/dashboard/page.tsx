@@ -36,7 +36,7 @@ export default async function DashboardPage() {
         <InstaPost />
         <StyledStatCard
           title={'More links'}
-          href={'https://links.jahir.dev'}
+          href={'https://links.hiradary.me'}
           className={cx(
             'col-span-1 aspect-square',
             'tablet-sm:aspect-square tablet-sm:col-span-3',
@@ -45,7 +45,7 @@ export default async function DashboardPage() {
         >
           <Img
             src={animoji}
-            alt={'Animoji of Jahir'}
+            alt={'Animoji of Hirad'}
             placeholder={'blur'}
             className={cx(
               'transition',
@@ -60,11 +60,11 @@ export default async function DashboardPage() {
 }
 
 export const metadata = getStaticMetadata({
-  title: 'Dashboard – Jahir Fiquitiva',
+  title: 'Dashboard – Hirad Arshadi',
   description:
     // eslint-disable-next-line max-len
     "Get to know the latest stats and what I'm currently listening to on Spotify",
-  exactUrl: 'https://jahir.dev/dashboard',
+  exactUrl: 'https://hiradary.me/dashboard',
   keywords: [
     'dashboard',
     'stats',

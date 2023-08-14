@@ -17,14 +17,9 @@ module.exports = [
   /* Old static assets paths to new ones */
   buildRedirect('/assets/:path*', '/static/:path*'),
   /* Needed for android dashboards */
-  buildRedirect('/static/images/me/me.jpg', '/static/images/jahir/jahir.jpg'),
-  /* Dashbud links */
-  buildRedirect('/dashbud', 'https://dashbud.dev'),
-  buildRedirect('/dashbud/:path*', 'https://dashbud.dev'),
-  buildRedirect('/dashsetup', 'https://dashbud.dev'),
-  buildRedirect('/dashsetup/:path*', 'https://dashbud.dev'),
+  buildRedirect('/static/images/me/me.jpg', '/static/images/hirad/hirad.jpg'),
   /* Other redirections */
-  buildRedirect('/links', 'https://links.jahir.dev'),
+  buildRedirect('/links', 'https://links.hiradary.me'),
   buildRedirect('/contact', '/about#contact'),
   /* Dashboard aliases */
   buildRedirect('/music', '/dashboard'),
@@ -44,5 +39,4 @@ module.exports = [
   buildRedirect('/feed', '/feed.xml'),
   buildRedirect('/sitemap', '/sitemap.xml'),
   buildRedirect('/resume', '/share/Jahir-Fiquitiva-Resume.pdf'),
-  buildRedirect('/shop', 'https://www.shop.jahir.dev/nuestros-productos'),
 ];

@@ -1,4 +1,4 @@
-# [jahir.dev](https://jahir.dev)
+# [hiradary.me](https://hiradary.me)
 
 [![GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4)](https://github.com/sponsors/jahirfiquitiva)
 
@@ -48,7 +48,7 @@
 - **`src/components/molecules/*`** - The main blocks for the website: `toolbar`, `footer`, `main` layout, `back-to-top` button and `social links`
 - **`src/components/og/*`** - The code that powers dynamic open-graph images generation
 - **`src/components/views/*`** - More complex components to build the different pages of my website. _(They're here to keep `src/app/` as clean as possible)_
-- **`src/data/*`** - JSON files containing data for projects and the [`uses`](https://jahir.dev/uses) page
+- **`src/data/*`** - JSON files containing data for projects and the [`uses`](https://hiradary.me/uses) page
 - **`src/hooks/*`** - A couple hooks used throughout the app
 - **`src/lib/*`** - Short for "library", a collection of helpful utilities or code for external services
 - **`src/providers/*`** - React Contexts for storing the current theme and blog post reactions
@@ -61,13 +61,13 @@
 This application requires Node.js v16.20+.
 
 ```bash
-git clone https://github.com/jahirfiquitiva/jahir.dev.git
-cd jahir.dev
+git clone https://github.com/jahirfiquitiva/hiradary.me.git
+cd hiradary.me
 yarn
 yarn setup # Remove all of my personal content and files
 ```
 
-Create a `.env` file similar to [`.env.example`](https://github.com/jahirfiquitiva/jahir.dev/blob/main/.env.example).
+Create a `.env` file similar to [`.env.example`](https://github.com/jahirfiquitiva/hiradary.me/blob/main/.env.example).
 
 ```bash
 yarn dev
@@ -84,7 +84,7 @@ Please double check the code and implementations.
 
 ## Cloning / Forking
 
-Please review the [license](https://github.com/jahirfiquitiva/jahir.dev/blob/main/LICENSE), do not copy it directly, remove all of my personal content and files (resume, blog posts, images, etc.) by running `yarn setup` and please change the styling and colors to match your personal brand. You are free to use this code as inspiration or learning reference but this is not really intended to be a template.
+Please review the [license](https://github.com/jahirfiquitiva/hiradary.me/blob/main/LICENSE), do not copy it directly, remove all of my personal content and files (resume, blog posts, images, etc.) by running `yarn setup` and please change the styling and colors to match your personal brand. You are free to use this code as inspiration or learning reference but this is not really intended to be a template.
 
 <details>
 

@@ -15,7 +15,7 @@ export const ViewTracker = (props: ViewTrackerProps) => {
   useEffect(() => {
     if (!hasMounted) return;
     const hostname = window?.location?.hostname || 'localhost';
-    if (hostname === 'jahir.dev') trackView?.(slug);
+    if (hostname === 'hiradary.me') trackView?.(slug);
   }, [hasMounted, slug, trackView]);
   return null;
 };

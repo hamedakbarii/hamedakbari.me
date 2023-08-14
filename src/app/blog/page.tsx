@@ -32,11 +32,11 @@ export default function BlogPage() {
 }
 
 export const metadata = getStaticMetadata({
-  title: 'Blog – Jahir Fiquitiva',
+  title: 'Blog – Hirad Arshadi',
   description:
     // eslint-disable-next-line max-len
-    'Blog posts by Jahir Fiquitiva. Here I share some thoughts, stories, information and more about software development, programming, tech or my personal life',
-  exactUrl: 'https://jahir.dev/blog',
+    'Blog posts by Hirad Arshadi. Here I share some thoughts, stories, information and more about software development, programming, tech or my personal life',
+  exactUrl: 'https://hiradary.me/blog',
   keywords: [
     'tech',
     'software',

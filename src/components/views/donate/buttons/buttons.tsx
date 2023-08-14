@@ -18,36 +18,20 @@ export const DonateButtons = () => {
         Donate via
       </Heading>
       <div className={'flex flex-row items-center gap-16 flex-wrap'}>
-        <GitHubSponsorsLink
-          href={'https://github.com/sponsors/jahirfiquitiva'}
-          title={'Sponsor Jahir on GitHub'}
-        >
-          <Icon path={mdiHeartOutline} size={0.9} />
-          <span>GitHub Sponsors</span>
-        </GitHubSponsorsLink>
         <ButtonLink
-          href={'https://buymeacoffee.com/jahirfiquitiva'}
-          title={'Buy Jahir a Pizza'}
+          href={'https://buymeacoffee.com/hiradary'}
+          title={'Buy Hirad a Pizza'}
         >
           <Icon path={mdiPizza} size={0.9} className={'-rotate-12'} />
           <span>Buy me a Pizza</span>
         </ButtonLink>
         <PayPalLink
-          href={'https://jahir.xyz/DonatePayPal'}
-          title={'Donate to Jahir via PayPal'}
+          href={'https://paypal.me/hiradary'}
+          title={'Donate to Hirad via PayPal'}
         >
           <Icon path={mdiCreditCardChipOutline} size={0.9} />
           <span>PayPal</span>
         </PayPalLink>
-        <AmazonLink
-          href={
-            'https://www.amazon.com/hz/wishlist/ls/IEAGJXCWA83F?ref_=wl_share'
-          }
-          title={'Buy Jahir a gift from his Amazon Wishlist'}
-        >
-          <Icon path={gift} size={0.85} />
-          <span>Buy gift</span>
-        </AmazonLink>
       </div>
     </div>
   );

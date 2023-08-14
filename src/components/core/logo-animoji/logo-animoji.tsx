@@ -4,10 +4,10 @@ import { Container, StyledLogo, StyledImg } from './logo-animoji.styles';
 
 export const LogoAnimoji = () => (
   <Container>
-    <StyledLogo />
+    {/* <StyledLogo /> */}
     <StyledImg
       src={animojiImage}
-      alt={'Animoji representation of Jahir'}
+      alt={'Animoji representation of Hirad'}
       size={40}
     />
   </Container>

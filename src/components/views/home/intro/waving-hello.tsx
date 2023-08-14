@@ -15,7 +15,7 @@ const WavingSpan = tw.span`
 const greetings = [
   'Hello, world',
   'Hola, mundo',
-  'Ciao, mondo',
+  'Salam, donya',
   'Hallo, Welt',
   'Salut, monde',
   'Olá, mundo',

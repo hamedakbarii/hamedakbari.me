@@ -11,7 +11,6 @@ import { buildOgImageUrl } from '@/utils/og';
 
 import ContactButtons from './contact-buttons';
 import Doodle from './doodle';
-import Photo from './photo';
 
 const about = getBlog('about');
 
@@ -23,7 +22,6 @@ export default function AboutPage() {
         <Heading shadow={'blue'} from={'blue'} to={'green'}>
           About
         </Heading>
-        <Photo />
         <Mdx code={about?.body?.code} />
       </Section>
       <Section id={'contact'}>
@@ -65,9 +63,9 @@ export default function AboutPage() {
 }
 
 export const metadata = getStaticMetadata({
-  title: 'About – Jahir Fiquitiva',
-  description: 'Learn more about me (Jahir Fiquitiva), my career and more',
-  exactUrl: 'https://jahir.dev/about',
+  title: 'About – Hirad Arshadi',
+  description: 'Learn more about me (Hirad Arshadi), my career and more',
+  exactUrl: 'https://hiradary.me/about',
   keywords: ['bio', 'biography', 'information', 'about', 'career'],
   image: buildOgImageUrl('about'),
 });

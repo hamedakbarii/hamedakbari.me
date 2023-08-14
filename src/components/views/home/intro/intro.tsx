@@ -34,18 +34,18 @@ export const Intro = () => {
               to={'blue'}
               className={'[&>span]:w-[unset]'}
             >
-              Jahir Fiquitiva
+              Hirad Arshadi
             </Heading>
           </Heading>
           <WavingHello />
         </TitlesContainer>
         <IntroParagraph>
-          Passionate and creative full-stack software engineer from{' '}
+          Passionate and creative full-stack software engineer based in{' '}
           <Link
             title={'Colombia on Google Maps'}
-            href={'https://www.google.com/maps/place/Colombia/@4,-72z/'}
+            href={'https://goo.gl/maps/jBVpJRmkjWSK4qwq7'}
           >
-            Colombia 🇨🇴
+            Vancouver, Canada 🇨🇦
           </Link>
         </IntroParagraph>
         <div className={'flex items-center gap-16 flex-wrap'}>
@@ -67,8 +67,8 @@ export const Intro = () => {
       </TextsContainer>
       <PhotoContainer>
         <Photo
-          src={'/static/images/jahir/jahir.jpg'}
-          alt={"Jahir's Photo"}
+          src={'/static/images/hirad/hirad.jpg'}
+          alt={"Hirad's Photo"}
           size={168}
           priority
         />
