@@ -1,5 +1,4 @@
 import { notFound } from 'next/navigation';
-import { Suspense } from 'react';
 
 import { Heading } from '@/components/core/heading';
 import { Section } from '@/components/core/section';
@@ -8,10 +7,6 @@ import { Mdx } from '@/components/views/mdx';
 import { getBlog } from '@/utils/blogs';
 import { getStaticMetadata } from '@/utils/metadata';
 import { buildOgImageUrl } from '@/utils/og';
-
-import Loading from '../loading';
-
-import DynamicDonateContent from './dynamic-content';
 
 const DonatePageContent = () => {
   const donate = getBlog('donate');
@@ -27,9 +22,6 @@ export default async function DonatePage() {
       </Heading>
       <DonatePageContent />
       <DonateButtons />
-      <Suspense fallback={<Loading />}>
-        <DynamicDonateContent />
-      </Suspense>
     </Section>
   );
 }

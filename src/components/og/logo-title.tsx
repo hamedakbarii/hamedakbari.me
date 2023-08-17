@@ -3,7 +3,6 @@ import { Logo } from '../icons';
 const pathEmojiMap = {
   '404': '👻',
   about: '😀',
-  dashboard: 'ℹ️',
   donate: '🎁',
   projects: '💼',
   uses: '💻',
@@ -15,7 +14,6 @@ export type PathName = keyof typeof pathEmojiMap | null;
 const pathTitleMap = {
   '404': 'Page not found',
   about: 'About',
-  dashboard: 'Dashboard',
   donate: 'Donate',
   projects: 'Projects',
   uses: 'Uses',

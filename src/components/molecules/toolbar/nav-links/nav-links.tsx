@@ -10,6 +10,7 @@ interface ToolbarLinkItem {
   title: string;
   href: string;
   className?: GradientClass;
+  openInNewTab?: boolean;
 }
 
 const toolbarLinksList: Array<ToolbarLinkItem> = [
@@ -20,14 +21,15 @@ const toolbarLinksList: Array<ToolbarLinkItem> = [
   },
   {
     title: 'Blog',
-    href: '/blog',
+    href: 'https://hiradary.hashnode.dev',
     className: 'from-gradient-yellow to-gradient-orange',
+    openInNewTab: true,
   },
-  {
-    title: 'Projects',
-    href: '/projects',
-    className: 'from-gradient-red to-gradient-purple',
-  },
+  // {
+  //   title: 'Projects',
+  //   href: '/projects',
+  //   className: 'from-gradient-red to-gradient-purple',
+  // },
   {
     title: 'Donate',
     href: '/donate',
@@ -45,6 +47,7 @@ export const ToolbarNavLinks = (props: { pathname?: string }) => {
             <ToolbarLink
               title={`${link.title} page`}
               href={link.href as Route}
+              openInNewTab={link.openInNewTab}
               aria-current={
                 pathname?.startsWith(link.href) ? 'page' : undefined
               }

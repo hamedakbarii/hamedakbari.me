@@ -19,48 +19,23 @@ const primaryLinks: Array<FooterLinkProps> = [
   },
   {
     title: 'Blog',
-    href: '/blog',
-    className: 'from-gradient-yellow to-gradient-orange',
-    underlineColor: 'yellow',
-  },
-  {
-    title: 'Projects',
-    href: '/projects',
+    href: 'https://hiradary.hashnode.dev',
     className: 'from-gradient-red to-gradient-purple',
     underlineColor: 'red',
+    openInNewTab: true,
   },
 ];
 
 const secondaryLinks: Array<FooterLinkProps> = [
-  {
-    title: 'Uses',
-    href: '/uses',
-    className: 'from-gradient-purple to-gradient-brand',
-    underlineColor: 'purple',
-  },
   {
     title: 'Donate',
     href: '/donate',
     className: 'from-gradient-brand to-gradient-blue',
     underlineColor: 'brand',
   },
-  {
-    title: 'Dashboard',
-    href: '/dashboard',
-    className: 'from-gradient-blue to-gradient-green',
-    underlineColor: 'blue',
-  },
 ];
 
 const metaLinks: Array<FooterLinkProps> = [
-  {
-    title: 'RSS',
-    href: '/feed.xml',
-    className: 'from-gradient-yellow to-gradient-orange',
-    underlineColor: 'yellow',
-    a11yTitle: 'RSS Feed',
-    openInNewTab: true,
-  },
   {
     title: 'Source',
     href: 'https://github.com/hiradary/hiradary.me',
