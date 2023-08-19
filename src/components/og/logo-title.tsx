@@ -31,8 +31,8 @@ export const LogoOrEmoji = (props: { path?: PathName }) => {
           width: titleFontSize * 2,
           height: titleFontSize * 2,
           filter: 'saturate(150%)',
-          color: '#88a4e6',
-          fill: '#88a4e6',
+          color: '#00b85c',
+          fill: '#00b85c',
         }}
       />
     );
@@ -57,7 +57,7 @@ export const PageTitle = (props: {
         ...(path
           ? {}
           : {
-              backgroundImage: 'linear-gradient(to right, #88a4e6, #81c1e9)',
+              backgroundImage: 'linear-gradient(to right, #00b85c, #66d89f)',
               backgroundClip: 'text',
               filter: 'saturate(150%)',
             }),
