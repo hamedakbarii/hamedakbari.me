@@ -25,17 +25,13 @@ const titleFontSize = 72;
 export const LogoOrEmoji = (props: { path?: PathName }) => {
   const emoji = props.path ? pathEmojiMap[props.path] : null;
   if (!emoji) {
-    return (
-      <Logo
-        style={{
-          width: titleFontSize * 2,
-          height: titleFontSize * 2,
-          filter: 'saturate(150%)',
-          color: '#00b85c',
-          fill: '#00b85c',
-        }}
-      />
-    );
+    return null;
+    // <Logo
+    //   style={{
+    //     width: titleFontSize * 2,
+    //     height: titleFontSize * 2,
+    //   }}
+    // />
   }
   return <span style={{ fontSize: titleFontSize }}>{emoji}</span>;
 };

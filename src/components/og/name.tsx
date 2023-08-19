@@ -1,4 +1,4 @@
-import { Logo } from '../icons';
+import { LogoAnimoji } from '@/components/core/logo-animoji';
 
 import type { PathName } from './logo-title';
 
@@ -14,7 +14,8 @@ export const Name = (props: { path?: PathName }) => {
         fontSize,
       }}
     >
-      <Logo
+      <LogoAnimoji />
+      {/* <Logo
         style={{
           width: fontSize,
           height: fontSize,
@@ -22,7 +23,7 @@ export const Name = (props: { path?: PathName }) => {
           color: '#88a4e6',
           fill: '#88a4e6',
         }}
-      />
+      /> */}
       <p
         style={{
           alignSelf: 'flex-start',
