@@ -1,4 +1,4 @@
-const buildRedirect = (source, destination, permanent = true) => {
+const buildRedirect = (source, destination, permanent = false) => {
   return {
     source,
     destination,
@@ -12,7 +12,6 @@ module.exports = [
   /* Needed for android dashboards */
   buildRedirect('/static/images/me/me.jpg', '/static/images/hirad/hirad.jpg'),
   /* Other redirections */
-  buildRedirect('/links', 'https://links.hiradary.me'),
   buildRedirect('/contact', '/about#contact'),
-  buildRedirect('/resume', '/share/Jahir-Fiquitiva-Resume.pdf'),
+  buildRedirect('/resume', '/share/Hirad-Resume.pdf'),
 ];
