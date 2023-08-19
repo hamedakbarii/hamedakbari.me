@@ -39,7 +39,8 @@ export default function ContactButtons() {
       </ButtonLink>
       <ButtonLink
         title={'Compose a Twitter direct message for Hirad'}
-        href={'https://hiradary.me/twitterdm'}
+        href={'https://twitter.com/hiradary'}
+        openInNewTab
         outlined
         className={twitterButtonClasses}
       >

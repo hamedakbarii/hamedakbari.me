@@ -29,8 +29,9 @@ const primaryLinks: Array<FooterLinkProps> = [
 const secondaryLinks: Array<FooterLinkProps> = [
   {
     title: 'Donate',
-    href: '/donate',
+    href: 'https://buymeacoffee.com/hiradary',
     className: 'from-gradient-brand to-gradient-blue',
+    openInNewTab: true,
     underlineColor: 'brand',
   },
 ];

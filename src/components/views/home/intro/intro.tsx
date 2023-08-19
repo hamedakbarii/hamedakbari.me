@@ -42,7 +42,7 @@ export const Intro = () => {
         <IntroParagraph>
           Passionate and creative full-stack software engineer based in{' '}
           <Link
-            title={'Colombia on Google Maps'}
+            title={'Vancouver on Google Maps'}
             href={'https://goo.gl/maps/jBVpJRmkjWSK4qwq7'}
           >
             Vancouver, Canada 🇨🇦

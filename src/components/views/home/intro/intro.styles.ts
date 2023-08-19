@@ -32,22 +32,13 @@ export const IntroParagraph = tw.p`
 
 export const PhotoContainer = tw.div`
   rounded-half
-  bg-[#38518d]
-  w-[168px]
-  h-[168px]
+  w-[200px]
+  h-[200px]
 `;
 
 export const Photo = tw(Img)`
   rounded-half
-  [@media(hover:hover)]:filter
-  [@media(hover:hover)]:grayscale
-  [@media(hover:hover)]:contrast-75
-  [@media(hover:hover)]:brightness-150
-  [@media(hover:hover)]:transition
-  [@media(hover:hover)]:[transition-duration:.25s]
-  [@media(hover:hover)]:mix-blend-hard-light
-  [@media(hover:hover)]:opacity-75
-  hocus:filter-none
-  hocus:mix-blend-normal
-  hocus:opacity-100
+  w-full
+  h-full
+  object-cover
 `;

@@ -32,8 +32,9 @@ const toolbarLinksList: Array<ToolbarLinkItem> = [
   // },
   {
     title: 'Donate',
-    href: '/donate',
+    href: 'https://buymeacoffee.com/hiradary',
     className: 'from-gradient-brand to-gradient-blue',
+    openInNewTab: true,
   },
 ];
 
