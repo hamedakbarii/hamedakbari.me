@@ -9,41 +9,31 @@ export const Meta = () => {
         content={'width=device-width, initial-scale=1.0'}
       />
       <meta httpEquiv={'x-ua-compatible'} content={'ie=edge'} />
-
-      <link rel={'shortcut icon'} href={'/static/images/brand/favicon32.png'} />
       <link
         rel={'apple-touch-icon'}
-        href={'/static/images/brand/favicon57.png'}
+        sizes={'180x180'}
+        href={'/static/images/brand/apple-touch-icon.png'}
       />
       <link
-        rel={'apple-touch-icon'}
-        sizes={'72x72'}
-        href={'/static/images/brand/favicon72.png'}
+        rel={'icon'}
+        type={'image/png'}
+        sizes={'32x32'}
+        href={'/static/images/brand/favicon-32x32.png'}
       />
       <link
-        rel={'apple-touch-icon'}
-        sizes={'114x114'}
-        href={'/static/images/brand/favicon114.png'}
+        rel={'icon'}
+        type={'image/png'}
+        sizes={'16x16'}
+        href={'/static/images/brand/favicon-16x16.png'}
       />
       <link
         rel={'apple-touch-icon-precomposed'}
-        href={'/static/images/brand/favicon32.png'}
+        href={'/static/images/brand/favicon-32x32.png'}
       />
       <link
         rel={'icon'}
         sizes={'32x32'}
-        href={'/static/images/brand/favicon32.png'}
-      />
-      <meta
-        name={'msapplication-TileImage'}
-        content={'/static/images/brand/favicon32.png'}
-      />
-
-      <link
-        rel={'alternate'}
-        href={'/feed.xml'}
-        type={'application/rss+xml'}
-        title={'Hirad Arshadi (RSS)'}
+        href={'/static/images/brand/favicon-32x32.png'}
       />
 
       {colorMetaTags.map((tag) => (

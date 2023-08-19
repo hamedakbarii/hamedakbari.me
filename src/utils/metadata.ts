@@ -48,10 +48,6 @@ export const getStaticMetadata = (data: {
       creator: '@hiradary',
       site: '@hiradary',
     },
-    verification: {
-      //TODO: figure this out
-      google: 'lJwL3cKpjX_Eqp6yEY4hsydJazQl85xv29ZUmEg4oEE',
-    },
     metadataBase: new URL('https://hiradary.me'),
   };
 };
