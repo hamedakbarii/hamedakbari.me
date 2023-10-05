@@ -29,7 +29,7 @@ export default function AboutPage() {
           Contact
         </Heading>
         <p>
-          I&apos;m always open to chat, connect with new people and explore new
+          I&apos;m always open to chatting, connecting with new people, and exploring new
           opportunities.
         </p>
         <div
@@ -42,7 +42,7 @@ export default function AboutPage() {
           <div className={cx('flex flex-col gap-12')}>
             <p>
               If you have a project or idea in mind where I can contribute,
-              don&apos;t hesitate contacting me!
+              don&apos;t hesitate to contact me!
               <br />
               But please{' '}
               <Link
@@ -53,7 +53,7 @@ export default function AboutPage() {
               </Link>
               .
             </p>
-            <p>There&apos;s a few ways you can get it touch:</p>
+            <p>There are a few ways you can get in touch:</p>
             <ContactButtons />
           </div>
         </div>
