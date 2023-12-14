@@ -31,7 +31,7 @@ export const metadata = {
     title: 'Hamed Akbari – Front-End Developer',
     description:
       // eslint-disable-next-line max-len
-      "I'm a passionate and creative software engineer based in Canada 🇨🇦. Visit my website to learn more about me and my projects",
+      "👋 Hey there! I'm Hamed Akbari experienced Front-End Developer with almost three years of hands-on expertise based in Iran.",
     keywords: [
       'hamed akbari',
       'hamed',
