@@ -17,23 +17,23 @@ const primaryLinks: Array<FooterLinkProps> = [
     className: 'from-gradient-blue to-gradient-green',
     underlineColor: 'blue',
   },
-  {
-    title: 'Blog',
-    href: 'https://hiradary.hashnode.dev',
-    className: 'from-gradient-red to-gradient-purple',
-    underlineColor: 'red',
-    openInNewTab: true,
-  },
+  // {
+  //   title: 'Blog',
+  //   href: 'https://hiradary.hashnode.dev',
+  //   className: 'from-gradient-red to-gradient-purple',
+  //   underlineColor: 'red',
+  //   openInNewTab: true,
+  // },
 ];
 
 const secondaryLinks: Array<FooterLinkProps> = [
-  {
-    title: 'Donate',
-    href: 'https://buymeacoffee.com/hiradary',
-    className: 'from-gradient-brand to-gradient-blue',
-    openInNewTab: true,
-    underlineColor: 'brand',
-  },
+  // {
+  //   title: 'Donate',
+  //   href: 'https://buymeacoffee.com/hiradary',
+  //   className: 'from-gradient-brand to-gradient-blue',
+  //   openInNewTab: true,
+  //   underlineColor: 'brand',
+  // },
 ];
 
 const metaLinks: Array<FooterLinkProps> = [
@@ -65,7 +65,7 @@ export const Footer = () => {
           className={'hocus:decoration-gradient-brand group/link group/animoji'}
         >
           <LogoAnimoji />
-          <BrandLinkSpan>Hirad Arshadi</BrandLinkSpan>
+          <BrandLinkSpan>Hamed Akbari</BrandLinkSpan>
         </BrandLink>
         <SocialLinks withBackToTop />
       </InnerFooter>

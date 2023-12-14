@@ -19,23 +19,18 @@ const toolbarLinksList: Array<ToolbarLinkItem> = [
     href: '/about',
     className: 'from-gradient-blue to-gradient-green',
   },
-  {
-    title: 'Blog',
-    href: 'https://hiradary.hashnode.dev',
-    className: 'from-gradient-yellow to-gradient-orange',
-    openInNewTab: true,
-  },
   // {
-  //   title: 'Projects',
-  //   href: '/projects',
-  //   className: 'from-gradient-red to-gradient-purple',
+  //   title: 'Blog',
+  //   href: 'https://hiradary.hashnode.dev',
+  //   className: 'from-gradient-yellow to-gradient-orange',
+  //   openInNewTab: true,
   // },
-  {
-    title: 'Donate',
-    href: 'https://buymeacoffee.com/hiradary',
-    className: 'from-gradient-brand to-gradient-blue',
-    openInNewTab: true,
-  },
+  // {
+  //   title: 'Donate',
+  //   href: 'https://buymeacoffee.com/hiradary',
+  //   className: 'from-gradient-brand to-gradient-blue',
+  //   openInNewTab: true,
+  // },
 ];
 
 export const ToolbarNavLinks = (props: { pathname?: string }) => {

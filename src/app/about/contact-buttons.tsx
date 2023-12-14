@@ -2,7 +2,12 @@ import Icon from '@mdi/react';
 import { cx } from 'classix';
 
 import { ButtonLink } from '@/components/core/link';
-import { mdiEmail, telegram, twitterOutline } from '@/components/icons';
+import {
+  mdiEmail,
+  telegram,
+  twitterOutline,
+  linkedInOutline,
+} from '@/components/icons';
 
 const emailButtonClasses = cx(
   'hocus:bg-[rgba(211_60_48/0.08)]',
@@ -29,17 +34,18 @@ export default function ContactButtons() {
   return (
     <div className={'flex flex-wrap items-center gap-16'}>
       <ButtonLink
-        title={'Compose an email to Hirad'}
-        href={'mailto:hey@hiradary.me?subject=Hi%Hirad!'}
+        title={'Compose an email to Hamed'}
+        href={'mailto:hamedakbariwork@gmail.com?subject=Hi%Hamed!'}
         outlined
         className={emailButtonClasses}
       >
         <Icon path={mdiEmail} size={0.95} />
         <span>Email</span>
       </ButtonLink>
+
       <ButtonLink
-        title={'Compose a Twitter direct message for Hirad'}
-        href={'https://twitter.com/hiradary'}
+        title={'Compose a Twitter direct message for Hamed'}
+        href={'https://x.com/hamedakbrii'}
         openInNewTab
         outlined
         className={twitterButtonClasses}
@@ -47,15 +53,28 @@ export default function ContactButtons() {
         <Icon path={twitterOutline} size={0.9} />
         <span>Twitter</span>
       </ButtonLink>
-      {/* <ButtonLink
-        title={"Hirad's Telegram profile"}
-        href={'https://hiradary.me/tlgrm'}
+
+      <ButtonLink
+        title={'Compose a Telegram private message for Hamed'}
+        href={'https://t.me/hamedakbrii'}
+        openInNewTab
         outlined
-        className={telegramButtonClasses}
+        className={twitterButtonClasses}
       >
-        <Icon path={telegram} size={0.85} />
+        <Icon path={telegram} size={0.9} />
         <span>Telegram</span>
-      </ButtonLink> */}
+      </ButtonLink>
+
+      <ButtonLink
+        title={'Compose a Telegram private message for Hamed'}
+        href={'https://www.linkedin.com/in/hamedakbarii/'}
+        openInNewTab
+        outlined
+        className={twitterButtonClasses}
+      >
+        <Icon path={linkedInOutline} size={0.9} />
+        <span>Linkedin</span>
+      </ButtonLink>
     </div>
   );
 }

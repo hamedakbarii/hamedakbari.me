@@ -34,18 +34,16 @@ export const Intro = () => {
               to={'blue'}
               className={'[&>span]:w-[unset]'}
             >
-              Hirad Arshadi
+              Hamed Akbari
             </Heading>
           </Heading>
           <WavingHello />
         </TitlesContainer>
         <IntroParagraph>
-          Passionate and creative full-stack software engineer based in{' '}
-          <Link
-            title={'Vancouver on Google Maps'}
-            href={'https://goo.gl/maps/jBVpJRmkjWSK4qwq7'}
-          >
-            Vancouver, Canada 🇨🇦
+          A Front-End developer who is looking to grow as a Full-Stack
+          Developer, based in{' '}
+          <Link title={'Iran on Google Maps'} href={'/'}>
+            Mazandaran , Iran
           </Link>
         </IntroParagraph>
         <div className={'flex items-center gap-16 flex-wrap'}>
@@ -67,8 +65,8 @@ export const Intro = () => {
       </TextsContainer>
       <PhotoContainer>
         <Photo
-          src={'/static/images/hirad/hirad.jpg'}
-          alt={"Hirad's Photo"}
+          src={'/static/images/hamed/hamed.jpg'}
+          alt={"Hamed's Photo"}
           size={168}
           priority
         />
