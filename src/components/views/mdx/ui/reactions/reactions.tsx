@@ -81,7 +81,7 @@ export const Reactions = () => {
 
     // Submit reactions in production website only
     const hostname = window?.location?.hostname || 'localhost';
-    if (hostname !== 'hiradary.me') return;
+    if (hostname !== 'hamedakbari.vercel.app') return;
 
     const reacted = await incrementReaction?.(key);
     // If reaction was submitted successfully

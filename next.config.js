@@ -38,8 +38,8 @@ const defaultNextConfig = {
     remotePatterns: [
       { hostname: 'images.unsplash.com' },
       { hostname: 'i.scdn.co' },
-      { hostname: 'spotify.com' },
-      { hostname: 'hiradary.me' },
+      // { hostname: 'spotify.com' },
+      { hostname: 'hamedakbari.vercel.app' },
       { hostname: 'unavatar.io' },
       { hostname: 'source.boringavatars.com' },
       { hostname: 'lh3.googleusercontent.com' },

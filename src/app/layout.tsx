@@ -28,15 +28,15 @@ const manrope = Manrope({
 
 export const metadata = {
   ...getStaticMetadata({
-    title: 'Hirad Arshadi – Software Engineer',
+    title: 'Hamed Akbari – Software Engineer',
     description:
       // eslint-disable-next-line max-len
       "I'm a passionate and creative software engineer based in Canada 🇨🇦. Visit my website to learn more about me and my projects",
     keywords: [
-      'hirad arshadi',
-      'hirad',
-      'arshadi',
-      'hiradarshadi',
+      'hamed akbari',
+      'hamed',
+      'akbari',
+      'hamedakbari',
       'open-source',
       'full-stack',
       'software engineer',

@@ -34,7 +34,7 @@ export const Name = (props: { path?: PathName }) => {
           filter: 'saturate(150%)',
         }}
       >
-        Hirad Arshadi
+        Hamed Akbari
       </p>
     </div>
   );

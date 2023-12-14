@@ -19,7 +19,7 @@ const primaryLinks: Array<FooterLinkProps> = [
   },
   // {
   //   title: 'Blog',
-  //   href: 'https://hiradary.hashnode.dev',
+  //   href: 'https://hamedakbari.hashnode.dev',
   //   className: 'from-gradient-red to-gradient-purple',
   //   underlineColor: 'red',
   //   openInNewTab: true,
@@ -29,7 +29,7 @@ const primaryLinks: Array<FooterLinkProps> = [
 const secondaryLinks: Array<FooterLinkProps> = [
   // {
   //   title: 'Donate',
-  //   href: 'https://buymeacoffee.com/hiradary',
+  //   href: 'https://buymeacoffee.com/hamedakbari',
   //   className: 'from-gradient-brand to-gradient-blue',
   //   openInNewTab: true,
   //   underlineColor: 'brand',
@@ -39,7 +39,7 @@ const secondaryLinks: Array<FooterLinkProps> = [
 const metaLinks: Array<FooterLinkProps> = [
   {
     title: 'Source',
-    href: 'https://github.com/hiradary/hiradary.me',
+    href: 'https://github.com/hamedakbari/hamedakbari.vercel.app',
     className: 'from-gradient-brand to-gradient-blue',
     underlineColor: 'brand',
     a11yTitle: 'View source code on GitHub',

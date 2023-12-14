@@ -24,7 +24,7 @@ export async function GET(
     const repo = context?.params?.repo;
     if (!repo) return NextResponse.json({ stars: null });
 
-    const owner = searchParams.get('owner') || 'hiradary';
+    const owner = searchParams.get('owner') || 'hamedakbarii';
 
     const repoRequest = await fetch(
       `${repoApiUrl}/${owner}/${repo}`,

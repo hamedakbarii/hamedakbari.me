@@ -81,7 +81,7 @@ export const Website = () => {
         and you can check out the{' '}
         <Link
           title={'View source code on GitHub'}
-          href={'https://github.com/hiradary/hiradary.me'}
+          href={'https://github.com/hamedakbarii/hamedakbari.vercel.app'}
         >
           source code
         </Link>{' '}

@@ -19,15 +19,15 @@ export const DonateButtons = () => {
       </Heading>
       <div className={'flex flex-row items-center gap-16 flex-wrap'}>
         <ButtonLink
-          href={'https://buymeacoffee.com/hiradary'}
-          title={'Buy Hirad a Pizza'}
+          href={'https://buymeacoffee.com/hamedakbari'}
+          title={'Buy Hamed a Pizza'}
         >
           <Icon path={mdiPizza} size={0.9} className={'-rotate-12'} />
           <span>Buy me a Pizza</span>
         </ButtonLink>
         <PayPalLink
-          href={'https://paypal.me/hiradary'}
-          title={'Donate to Hirad via PayPal'}
+          href={'https://paypal.me/'}
+          title={'Donate to Hamed via PayPal'}
         >
           <Icon path={mdiCreditCardChipOutline} size={0.9} />
           <span>PayPal</span>

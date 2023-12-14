@@ -54,7 +54,7 @@ export const Projects = async (props: ProjectsProps) => {
         </Heading>
         <ProjectsButtons>
           <ButtonLink
-            title={"Hirad's resume pdf file"}
+            title={"Hamed's resume pdf file"}
             href={'/resume'}
             openInNewTab
             outlined

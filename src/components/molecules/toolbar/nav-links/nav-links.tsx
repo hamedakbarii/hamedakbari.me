@@ -21,13 +21,13 @@ const toolbarLinksList: Array<ToolbarLinkItem> = [
   },
   // {
   //   title: 'Blog',
-  //   href: 'https://hiradary.hashnode.dev',
+  //   href: 'https://hamedakbari.hashnode.dev',
   //   className: 'from-gradient-yellow to-gradient-orange',
   //   openInNewTab: true,
   // },
   // {
   //   title: 'Donate',
-  //   href: 'https://buymeacoffee.com/hiradary',
+  //   href: 'https://buymeacoffee.com/hamedakbari',
   //   className: 'from-gradient-brand to-gradient-blue',
   //   openInNewTab: true,
   // },

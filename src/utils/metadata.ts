@@ -5,7 +5,7 @@ import { buildOgImageUrl } from './og';
 type MetaImageStyle = 'summary_large_image' | 'summary';
 
 const defaultLogoImage =
-  'https://hiradary.me/static/images/brand/logo-full-me.png';
+  'https://hamedakbari.vercel.app/static/images/brand/logo-full-me.png';
 
 export const getStaticMetadata = (data: {
   title: string;
@@ -30,11 +30,11 @@ export const getStaticMetadata = (data: {
     title,
     description,
     keywords,
-    authors: [{ name: 'Hirad Arshadi', url: 'https://hiradary.me' }],
+    authors: [{ name: 'Hamed Akbari', url: 'https://hamedakbari.vercel.app' }],
     openGraph: {
       title,
       description,
-      url: exactUrl || 'https://hiradary.me',
+      url: exactUrl || 'https://hamedakbari.vercel.app',
       siteName: title,
       images: [{ url: actualImage }],
       locale: 'en_US',
@@ -45,10 +45,10 @@ export const getStaticMetadata = (data: {
       description,
       images: [{ url: actualImage }],
       card: actualMetaImageStyle,
-      creator: '@hiradary',
-      site: '@hiradary',
+      creator: '@hamedakbarii',
+      site: '@hamedakbarii',
     },
-    metadataBase: new URL('https://hiradary.me'),
+    metadataBase: new URL('https://hamedakbari.vercel.app'),
   };
 };
 

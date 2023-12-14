@@ -11,7 +11,7 @@ import { useHasMounted } from '@/hooks/use-has-mounted';
 
 const shareUrl = (title: string, slug: string) =>
   `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-    `"${title}" by @hiradary\nhttps://hiradary.me/blog/${slug}`,
+    `"${title}" by @hamedakbarii\nhttps://hamedakbari.vercel.app/blog/${slug}`,
   )}`;
 
 interface ShareButtonProps {
@@ -36,8 +36,8 @@ export const ShareButton = (props: ShareButtonProps) => {
   const shareData = useMemo(() => {
     return {
       title,
-      text: `"${title}" by @hiradary`,
-      url: `https://hiradary.me/blog/${slug}`,
+      text: `"${title}" by @hamedakbarii`,
+      url: `https://hamedakbari.vercel.app/blog/${slug}`,
     };
   }, [title, slug]);
 
