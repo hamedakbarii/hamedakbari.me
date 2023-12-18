@@ -14,6 +14,7 @@
     "postinstall": "is-ci"
   },
   "dependencies": {
+    "@mdi/js": "^7.3.67",
     "@mdi/react": "^1.6.1",
     "@planetscale/database": "^1.10.0",
     "@vercel/analytics": "^1.0.2",
