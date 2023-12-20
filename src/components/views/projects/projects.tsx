@@ -52,6 +52,7 @@ export const Projects = async (props: ProjectsProps) => {
         >
           {!full ? 'Featured ' : ''}Projects
         </Heading>
+
         <ProjectsButtons>
           <ButtonLink
             title={"Hamed's resume pdf file"}
@@ -70,6 +71,7 @@ export const Projects = async (props: ProjectsProps) => {
           )}
         </ProjectsButtons>
       </ProjectsHeader>
+
       <Suspense fallback={<Loading />}>
         <AsyncProjectsList full={full} />
       </Suspense>
