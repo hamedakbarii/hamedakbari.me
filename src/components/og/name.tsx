@@ -14,7 +14,7 @@ export const Name = (props: { path?: PathName }) => {
         fontSize,
       }}
     >
-      <LogoAnimoji />
+      🎧
       {/* <Logo
         style={{
           width: fontSize,

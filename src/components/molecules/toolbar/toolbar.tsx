@@ -55,7 +55,7 @@ export const Toolbar = () => {
     <Header data-expanded={isExpanded} id={'header'}>
       <Nav $elevated={elevated}>
         <HomeLink href={'/'} title={'Home page'} className={'group/animoji'}>
-          <LogoAnimoji />
+          🎧
           <HomeLinkSpan>Hirad Arshadi</HomeLinkSpan>
         </HomeLink>
         <ToolbarNavLinks pathname={pathname} />

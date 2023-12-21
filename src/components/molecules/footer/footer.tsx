@@ -64,7 +64,7 @@ export const Footer = () => {
           title={'Home page'}
           className={'hocus:decoration-gradient-brand group/link group/animoji'}
         >
-          <LogoAnimoji />
+          🎧
           <BrandLinkSpan>Hirad Arshadi</BrandLinkSpan>
         </BrandLink>
         <SocialLinks withBackToTop />
