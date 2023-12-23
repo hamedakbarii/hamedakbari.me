@@ -25,6 +25,7 @@ export const skills: Skill[] = [
   { name: 'Next.js', iconPath: nextJs, color: '#0070f3' },
   { name: 'React Native', iconPath: mdiReact, color: '#00c2e6' },
   { name: 'PWA', iconPath: mdiLanguageJavascript, color: '#888888' },
+  { name: 'Redux', iconPath: mdiReact, color: '#888888' },
   { name: 'Tailwind CSS', iconPath: mdiTailwind, color: '#38bdf8' },
   { name: 'MUI', iconPath: mdiMaterialUi, color: '#888888' },
   { name: 'Bootstrap', iconPath: mdiBootstrap, color: '#888888' },

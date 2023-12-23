@@ -48,7 +48,7 @@
     "color": "#3E95FB",
     "darkColor": "#3E95FB",
     "hide": false,
-    "stack": ["android", "kotlin", "material design"],
+    "stack": ["javascript", "scss"],
     "repo": "Axies-NFT-Market-Place",
     "iconMeta": {
       "size": {
