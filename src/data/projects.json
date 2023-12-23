@@ -2,7 +2,7 @@
   {
     "order": 0,
     "name": "Xreply",
-    "description": "Feature-rich dashboard Android icon packs",
+    "description": "A demo web application, xreply, using React.js and Tailwind CSS to enhance the Twitter experience for users",
     "icon": "android/xLogo.svg",
     "preview": "android/blueprint-preview.png",
     "link": "https://xreply-client.vercel.app/",
@@ -21,7 +21,7 @@
   {
     "order": 1,
     "name": "User-Portfolio",
-    "description": "First software development conference in Boyacá, Colombia",
+    "description": "A simple personal website portfolio showcasing user abilities, skills, education, and projects.",
     "icon": "android/userPortfolio.png",
     "preview": "other/boyaconf-preview.png",
     "link": "https://Mostafazare.com",
@@ -41,7 +41,7 @@
   {
     "order": 2,
     "name": "Axies-NFT-Market-Place",
-    "description": "Custom view to provide Material Design specs' Chip component",
+    "description": "As my first venture into pure JS development, this marketplace is dedicated to showcasing animated monsters as Non-Fungible Tokens (NFTs).",
     "icon": "android/axies.png",
     "preview": "android/chipview-preview.png",
     "link": "https://hamedakbarii.github.io/Axies-NFT-Market-Place/",
