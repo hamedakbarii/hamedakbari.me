@@ -40,6 +40,26 @@
   },
   {
     "order": 2,
+    "name": "Tech Online Store",
+    "description": "Developed a fully functional e-commerce website named 'Tech Online Store' showcasing a variety of laptops,computers, gaming monitors, and related accessories.",
+    "icon": "android/techOnline.png",
+    "preview": "other/boyaconf-preview.png",
+    "link": "https://tech-online.vercel.app",
+    "color": "#00202b",
+    "darkColor": "#4dcc89",
+    "stack": ["React", "TailwindCss"],
+    "repo": "Tech Online Store",
+    "owner": "boyaconf",
+    "iconMeta": {
+      "size": {
+        "width": 96,
+        "height": 96
+      },
+      "blur64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAIAAABvrngfAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAfUlEQVR4nAFyAI3/AP///w+5cVKBdmBvea23u////wAAhlwAMi0AGiMAFyFYbnfq7e0AM4tsGTVBKURMABghBCMup2h6AFmWgCZKUAAZIwAJFwApMl4DKQDd4OARMjsAGyUdOEMZBRpxACIA////jJWbX3Z6hWNwnwAZ////iLApZ+KXb1AAAAAASUVORK5CYII="
+    }
+  },
+  {
+    "order": 3,
     "name": "Axies-NFT-Market-Place",
     "description": "As my first venture into pure JS development, this marketplace is dedicated to showcasing animated monsters as Non-Fungible Tokens (NFTs).",
     "icon": "android/axies.png",
