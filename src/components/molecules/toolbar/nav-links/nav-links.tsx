@@ -20,16 +20,16 @@ const toolbarLinksList: Array<ToolbarLinkItem> = [
     className: 'from-gradient-blue to-gradient-green',
   },
   {
-    title: 'Blog',
-    href: 'https://hiradary.hashnode.dev',
+    title: 'Newsletter',
+    href: 'https://hiradary.beehiiv.com',
     className: 'from-gradient-yellow to-gradient-orange',
     openInNewTab: true,
   },
-  // {
-  //   title: 'Projects',
-  //   href: '/projects',
-  //   className: 'from-gradient-red to-gradient-purple',
-  // },
+  {
+    title: 'Projects',
+    href: '/projects',
+    className: 'from-gradient-red to-gradient-purple',
+  },
   {
     title: 'Donate',
     href: 'https://buymeacoffee.com/hiradary',

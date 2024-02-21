@@ -18,8 +18,8 @@ const primaryLinks: Array<FooterLinkProps> = [
     underlineColor: 'blue',
   },
   {
-    title: 'Blog',
-    href: 'https://hiradary.hashnode.dev',
+    title: 'Newsletter',
+    href: 'https://hiradary.beehiiv.com',
     className: 'from-gradient-red to-gradient-purple',
     underlineColor: 'red',
     openInNewTab: true,

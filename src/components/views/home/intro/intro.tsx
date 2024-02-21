@@ -26,7 +26,7 @@ export const Intro = () => {
             // look like h2
             className={'text-2xl'}
           >
-            I am&nbsp;
+            This is&nbsp;
             <Heading
               $as={'span'}
               shadow={'blue'}
@@ -40,7 +40,8 @@ export const Intro = () => {
           <WavingHello />
         </TitlesContainer>
         <IntroParagraph>
-          Passionate and creative full-stack software engineer based in{' '}
+          Passionate and creative full-stack software engineer & indie-hacker
+          based in{' '}
           <Link
             title={'Vancouver on Google Maps'}
             href={'https://goo.gl/maps/jBVpJRmkjWSK4qwq7'}

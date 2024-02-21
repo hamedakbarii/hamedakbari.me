@@ -6,10 +6,11 @@ export const metadata = getStaticMetadata({
   title: 'Projects – Hirad Arshadi',
   description:
     // eslint-disable-next-line max-len
-    "Projects by Hirad Arshadi. Get to know the projects I'm most proud of. Many of them are open-source.",
+    "Projects by Hirad Arshadi. Get to know the projects I'm most proud of.",
   exactUrl: 'https://hiradary.me/projects',
   keywords: [
-    'tech',
+    'indie-hacker',
+    'build-in-public',
     'software',
     'development',
     'project',

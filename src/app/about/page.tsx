@@ -2,7 +2,6 @@ import { cx } from 'classix';
 import { notFound } from 'next/navigation';
 
 import { Heading } from '@/components/core/heading';
-import { Link } from '@/components/core/link';
 import { Section } from '@/components/core/section';
 import { Mdx } from '@/components/views/mdx/mdx';
 import { getBlog } from '@/utils/blogs';
@@ -29,8 +28,8 @@ export default function AboutPage() {
           Contact
         </Heading>
         <p>
-          I&apos;m always open to chatting, connecting with new people, and exploring new
-          opportunities.
+          I&apos;m always open to chatting, connecting with new people, and
+          exploring new opportunities.
         </p>
         <div
           className={cx(
@@ -44,14 +43,6 @@ export default function AboutPage() {
               If you have a project or idea in mind where I can contribute,
               don&apos;t hesitate to contact me!
               <br />
-              But please{' '}
-              <Link
-                title={"Don't just say hello page"}
-                href={'https://nohello.net/'}
-              >
-                don&apos;t just say hello
-              </Link>
-              .
             </p>
             <p>There are a few ways you can get in touch:</p>
             <ContactButtons />
