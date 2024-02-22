@@ -6,7 +6,8 @@
     "icon": "icons/modernwisdom.png",
     "link": "https://modernwisdom.xyz/",
     "color": "#4d8af0",
-    "darkColor": "#4d8af0"
+    "darkColor": "#4d8af0",
+    "hide": false
   },
   {
     "order": 0,
@@ -15,6 +16,18 @@
     "icon": "icons/snapcover.png",
     "link": "https://snapcover.app/",
     "color": "#822EC4",
-    "darkColor": "#C23D93"
+    "darkColor": "#C23D93",
+    "hide": false
+  },
+  {
+    "order": 2,
+    "name": "Reoverlay",
+    "description": "The missing solution for managing modals in React.",
+    "icon": "icons/reoverlay.png",
+    "link": "https://github.com/hiradary/reoverlay",
+    "repo": "Reoverlay",
+    "color": "#4d8af0",
+    "darkColor": "#4d8af0",
+    "hide": false
   }
 ]
