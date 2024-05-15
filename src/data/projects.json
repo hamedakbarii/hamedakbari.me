@@ -1,16 +1,16 @@
 [
   {
-    "order": 1,
-    "name": "Modern Wisdom",
-    "description": "1:1 chat with GPTs of top business leaders, marketers, and entrepreneurs",
-    "icon": "icons/modernwisdom.png",
-    "link": "https://modernwisdom.xyz/",
-    "color": "#4d8af0",
-    "darkColor": "#4d8af0",
+    "order": 0,
+    "name": "TodoPal",
+    "description": "Your daily dose of done.",
+    "icon": "icons/todopal.png",
+    "link": "https://todopal.xyz/",
+    "color": "#0a40fe",
+    "darkColor": "#0a40fe",
     "hide": false
   },
   {
-    "order": 0,
+    "order": 1,
     "name": "SnapCover",
     "description": "Create beautiful banners for your X profile in seconds. No design skills needed.",
     "icon": "icons/snapcover.png",
