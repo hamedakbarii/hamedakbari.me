@@ -20,8 +20,8 @@ const toolbarLinksList: Array<ToolbarLinkItem> = [
     className: 'from-gradient-blue to-gradient-green',
   },
   {
-    title: 'Newsletter',
-    href: 'https://hiradary.beehiiv.com',
+    title: 'Blog',
+    href: 'https://hirad.beehiiv.com',
     className: 'from-gradient-yellow to-gradient-orange',
     openInNewTab: true,
   },
