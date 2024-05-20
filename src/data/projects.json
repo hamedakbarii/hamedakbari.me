@@ -24,7 +24,7 @@
     "description": "A simple personal website portfolio showcasing user abilities, skills, education, and projects.",
     "icon": "android/userPortfolio.png",
     "preview": "other/boyaconf-preview.png",
-    "link": "https://Mostafazare.com",
+    "link": "https://user-portfolio-eta.vercel.app/",
     "color": "#00202b",
     "darkColor": "#4dcc89",
     "stack": ["React", "TailwindCss"],
@@ -70,6 +70,26 @@
     "hide": false,
     "stack": ["javascript", "scss"],
     "repo": "Axies-NFT-Market-Place",
+    "iconMeta": {
+      "size": {
+        "width": 96,
+        "height": 96
+      },
+      "blur64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAIAAABvrngfAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAeElEQVR4nGOwW/aUIWc3g2E3g2EXiBG+loEhZwdD0kaG2LUMIcsZLCaAEEPd0bc//597/n/yzqunvv1n8J7PwJC36/SFV8u2XKyZtfPoq/8MVpMYQMJG3QxSZQyKNQzChQwSJQwMQcsZnGczGHQxcOcyKNYzCBUBAJaaLDdzP07wAAAAAElFTkSuQmCC"
+    }
+  },
+  {
+    "order": 4,
+    "name": "NAGENCY",
+    "description": "This is a Persian language digital agency project that introduces an example of a company and its plans, members, projects ... ",
+    "icon": "android/digitalAgency.jpeg",
+    "preview": "android/digitalAgency.jpeg",
+    "link": "https://nagency-two.vercel.app/",
+    "color": "#3E95FB",
+    "darkColor": "#3E95FB",
+    "hide": false,
+    "stack": ["javascript", "scss"],
+    "repo": "NAGENCY",
     "iconMeta": {
       "size": {
         "width": 96,
