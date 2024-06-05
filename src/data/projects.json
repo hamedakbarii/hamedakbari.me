@@ -1,26 +1,6 @@
 [
   {
     "order": 0,
-    "name": "NAGENCY",
-    "description": "This is a Persian language digital agency project that introduces an example of a company and its plans, members, projects ... ",
-    "icon": "android/digitalAgency.jpeg",
-    "preview": "android/digitalAgency.jpeg",
-    "link": "https://nagency-two.vercel.app/",
-    "color": "#3E95FB",
-    "darkColor": "#3E95FB",
-    "hide": false,
-    "stack": ["javascript", "scss"],
-    "repo": "NAGENCY",
-    "iconMeta": {
-      "size": {
-        "width": 96,
-        "height": 96
-      },
-      "blur64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAIAAABvrngfAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAeElEQVR4nGOwW/aUIWc3g2E3g2EXiBG+loEhZwdD0kaG2LUMIcsZLCaAEEPd0bc//597/n/yzqunvv1n8J7PwJC36/SFV8u2XKyZtfPoq/8MVpMYQMJG3QxSZQyKNQzChQwSJQwMQcsZnGczGHQxcOcyKNYzCBUBAJaaLDdzP07wAAAAAElFTkSuQmCC"
-    }
-  },
-  {
-    "order": 1,
     "name": "Xreply",
     "description": "A demo web application, xreply, using React.js and Tailwind CSS to enhance the Twitter experience for users",
     "icon": "android/xLogo.svg",
@@ -39,7 +19,7 @@
     }
   },
   {
-    "order": 2,
+    "order": 1,
     "name": "User-Portfolio",
     "description": "A simple personal website portfolio showcasing user abilities, skills, education, and projects.",
     "icon": "android/userPortfolio.png",
@@ -59,7 +39,7 @@
     }
   },
   {
-    "order": 3,
+    "order": 2,
     "name": "Tech Online Store",
     "description": "Developed a fully functional e-commerce website named 'Tech Online Store' showcasing a variety of laptops,computers, gaming monitors, and related accessories.",
     "icon": "android/techOnline.png",
@@ -79,7 +59,7 @@
     }
   },
   {
-    "order": 4,
+    "order": 3,
     "name": "Axies-NFT-Market-Place",
     "description": "As my first venture into pure JS development, this marketplace is dedicated to showcasing animated monsters as Non-Fungible Tokens (NFTs).",
     "icon": "android/axies.png",
