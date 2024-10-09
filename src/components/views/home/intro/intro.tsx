@@ -70,7 +70,7 @@ export const Intro = () => {
 
       <PhotoContainer>
         <Photo
-          src={'/static/images/hamed/hamed.jpg'}
+          src={'/static/images/hamed/hamed3.jpg'}
           alt={"Hamed's Photo"}
           size={168}
           priority
