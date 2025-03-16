@@ -34,7 +34,7 @@ export const Intro = () => {
               to={'blue'}
               className={'[&>span]:w-[unset]'}
             >
-              Hirad Arshadi
+              Hamed Akbari
             </Heading>
           </Heading>
           <WavingHello />
