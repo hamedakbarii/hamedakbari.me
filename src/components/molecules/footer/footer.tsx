@@ -65,7 +65,7 @@ export const Footer = () => {
           className={'hocus:decoration-gradient-brand group/link group/animoji'}
         >
           🎧
-          <BrandLinkSpan>Hirad Arshadi</BrandLinkSpan>
+          <BrandLinkSpan>Hamed Akbari</BrandLinkSpan>
         </BrandLink>
         <SocialLinks withBackToTop />
       </InnerFooter>

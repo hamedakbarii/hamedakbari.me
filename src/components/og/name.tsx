@@ -1,5 +1,3 @@
-import { LogoAnimoji } from '@/components/core/logo-animoji';
-
 import type { PathName } from './logo-title';
 
 const fontSize = 40;
@@ -15,15 +13,6 @@ export const Name = (props: { path?: PathName }) => {
       }}
     >
       🎧
-      {/* <Logo
-        style={{
-          width: fontSize,
-          height: fontSize,
-          filter: 'saturate(150%)',
-          color: '#88a4e6',
-          fill: '#88a4e6',
-        }}
-      /> */}
       <p
         style={{
           alignSelf: 'flex-start',
@@ -34,7 +23,7 @@ export const Name = (props: { path?: PathName }) => {
           filter: 'saturate(150%)',
         }}
       >
-        Hirad Arshadi
+        Hamed Akbari
       </p>
     </div>
   );

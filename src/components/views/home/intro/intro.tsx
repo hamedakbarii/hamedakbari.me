@@ -40,13 +40,12 @@ export const Intro = () => {
           <WavingHello />
         </TitlesContainer>
         <IntroParagraph>
-          Passionate and creative full-stack software engineer & indie-hacker
-          based in{' '}
+          Passionate and creative front-end developer based in{' '}
           <Link
             title={'Vancouver on Google Maps'}
             href={'https://goo.gl/maps/jBVpJRmkjWSK4qwq7'}
           >
-            Vancouver, Canada 🇨🇦
+            tehran, Iran 🇮🇷
           </Link>
         </IntroParagraph>
         <div className={'flex items-center gap-16 flex-wrap'}>
@@ -68,8 +67,8 @@ export const Intro = () => {
       </TextsContainer>
       <PhotoContainer>
         <Photo
-          src={'/static/images/hirad/hirad.jpg'}
-          alt={"Hirad's Photo"}
+          src={'/static/images/hamed/hamed-2.jpg'}
+          alt={"Hamed's Photo"}
           size={168}
           priority
         />

@@ -56,7 +56,7 @@ export const Toolbar = () => {
       <Nav $elevated={elevated}>
         <HomeLink href={'/'} title={'Home page'} className={'group/animoji'}>
           🎧
-          <HomeLinkSpan>Hirad Arshadi</HomeLinkSpan>
+          <HomeLinkSpan>Hamed Akbari</HomeLinkSpan>
         </HomeLink>
         <ToolbarNavLinks pathname={pathname} />
         <ToolbarLinksContainer className={'self-start tablet-md:self-center'}>
