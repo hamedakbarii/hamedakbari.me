@@ -27,27 +27,27 @@ export const SocialLinks = (props: SocialLinksProps) => {
   return (
     <SocialLinksContainer aria-label={'Social links'}>
       <SocialLinkItem>
-        <GitHubLink title={'GitHub'} href={'https://github.com/hiradary'}>
+        <GitHubLink title={'GitHub'} href={'https://github.com/hamedakbarii'}>
           <Icon path={gitHubOutline} size={iconSize} />
         </GitHubLink>
       </SocialLinkItem>
       <SocialLinkItem>
         <LinkedInLink
           title={'LinkedIn'}
-          href={'https://linkedin.com/in/hiradarshadi'}
+          href={'https://linkedin.com/in/hamedakbarii'}
         >
           <Icon path={linkedInOutline} size={iconSize} />
         </LinkedInLink>
       </SocialLinkItem>
       <SocialLinkItem>
-        <TwitterLink title={'X'} href={'https://x.com/hiradary'}>
+        <TwitterLink title={'X'} href={'https://x.com/hamedakbrii'}>
           <Icon path={twitterOutline} size={iconSize} />
         </TwitterLink>
       </SocialLinkItem>
       <SocialLinkItem>
         <InstagramLink
           title={'Instagram'}
-          href={'https://instagram.com/hiradary'}
+          href={'https://instagram.com/hamedakbrii'}
         >
           <Icon path={mdiInstagram} size={iconSize} />
         </InstagramLink>
