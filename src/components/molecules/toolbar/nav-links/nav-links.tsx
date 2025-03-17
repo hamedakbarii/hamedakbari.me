@@ -19,22 +19,11 @@ const toolbarLinksList: Array<ToolbarLinkItem> = [
     href: '/about',
     className: 'from-gradient-blue to-gradient-green',
   },
-  {
-    title: '',
-    href: '',
-    className: 'from-gradient-yellow to-gradient-orange',
-    openInNewTab: true,
-  },
+
   {
     title: 'Projects',
     href: '/projects',
     className: 'from-gradient-red to-gradient-purple',
-  },
-  {
-    title: '',
-    href: '',
-    className: 'from-gradient-brand to-gradient-blue',
-    openInNewTab: true,
   },
 ];
 

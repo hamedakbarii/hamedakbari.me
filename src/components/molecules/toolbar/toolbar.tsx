@@ -3,7 +3,6 @@
 import { usePathname } from 'next/navigation';
 import { useState, useCallback, useEffect } from 'react';
 
-import { LogoAnimoji } from '@/components/core/logo-animoji';
 import { mdiMenu, mdiPlus } from '@/components/icons';
 import { useHasMounted } from '@/hooks/use-has-mounted';
 
