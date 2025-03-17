@@ -3,13 +3,12 @@ import { getStaticMetadata } from '@/utils/metadata';
 import { buildOgImageUrl } from '@/utils/og';
 
 export const metadata = getStaticMetadata({
-  title: 'Projects – Hirad Arshadi',
+  title: 'Projects – Hamed Akbari',
   description:
     // eslint-disable-next-line max-len
-    "Projects by Hirad Arshadi. Get to know the projects I'm most proud of.",
+    "Projects by Hamed Akbari. Get to know the projects I'm most proud of.",
   exactUrl: 'https://hiradary.me/projects',
   keywords: [
-    'indie-hacker',
     'build-in-public',
     'software',
     'development',
