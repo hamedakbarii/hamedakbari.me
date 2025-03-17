@@ -54,8 +54,8 @@ export default function AboutPage() {
 }
 
 export const metadata = getStaticMetadata({
-  title: 'About – Hirad Arshadi',
-  description: 'Learn more about me (Hirad Arshadi), my career and more',
+  title: 'About – Hamed Akbari',
+  description: 'Learn more about me (Hamed Akbari), my career and more',
   exactUrl: 'https://hiradary.me/about',
   keywords: ['bio', 'biography', 'information', 'about', 'career'],
   image: buildOgImageUrl('about'),
