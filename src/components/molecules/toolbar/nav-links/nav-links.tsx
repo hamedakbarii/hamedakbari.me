@@ -20,8 +20,8 @@ const toolbarLinksList: Array<ToolbarLinkItem> = [
     className: 'from-gradient-blue to-gradient-green',
   },
   {
-    title: 'Blog',
-    href: 'https://hiradary.beehiiv.com',
+    title: '',
+    href: '',
     className: 'from-gradient-yellow to-gradient-orange',
     openInNewTab: true,
   },
@@ -31,8 +31,8 @@ const toolbarLinksList: Array<ToolbarLinkItem> = [
     className: 'from-gradient-red to-gradient-purple',
   },
   {
-    title: 'Donate',
-    href: 'https://buymeacoffee.com/hiradary',
+    title: '',
+    href: '',
     className: 'from-gradient-brand to-gradient-blue',
     openInNewTab: true,
   },

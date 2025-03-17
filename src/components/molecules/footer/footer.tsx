@@ -12,14 +12,14 @@ import { FooterLinksList, type FooterLinkProps } from './links-list';
 
 const primaryLinks: Array<FooterLinkProps> = [
   {
-    title: 'About',
+    title: '',
     href: '/about',
     className: 'from-gradient-blue to-gradient-green',
     underlineColor: 'blue',
   },
   {
-    title: 'Newsletter',
-    href: 'https://hiradary.beehiiv.com',
+    title: '',
+    href: '',
     className: 'from-gradient-red to-gradient-purple',
     underlineColor: 'red',
     openInNewTab: true,
@@ -28,8 +28,8 @@ const primaryLinks: Array<FooterLinkProps> = [
 
 const secondaryLinks: Array<FooterLinkProps> = [
   {
-    title: 'Donate',
-    href: 'https://buymeacoffee.com/hiradary',
+    title: '',
+    href: '',
     className: 'from-gradient-brand to-gradient-blue',
     openInNewTab: true,
     underlineColor: 'brand',
@@ -38,8 +38,8 @@ const secondaryLinks: Array<FooterLinkProps> = [
 
 const metaLinks: Array<FooterLinkProps> = [
   {
-    title: 'Source',
-    href: 'https://github.com/hiradary/hiradary.me',
+    title: '',
+    href: '',
     className: 'from-gradient-brand to-gradient-blue',
     underlineColor: 'brand',
     a11yTitle: 'View source code on GitHub',

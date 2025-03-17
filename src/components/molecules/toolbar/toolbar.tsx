@@ -58,11 +58,14 @@ export const Toolbar = () => {
           🎧
           <HomeLinkSpan>Hamed Akbari</HomeLinkSpan>
         </HomeLink>
+
         <ToolbarNavLinks pathname={pathname} />
+
         <ToolbarLinksContainer className={'self-start tablet-md:self-center'}>
           <li className={'self-start'}>
             <ThemeToggle />
           </li>
+
           <li className={'self-start'}>
             <MobileMenuToggle
               title={`${isExpanded ? 'Collapse' : 'Expand'} menu`}
