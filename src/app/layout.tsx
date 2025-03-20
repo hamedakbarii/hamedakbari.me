@@ -28,7 +28,7 @@ const manrope = Manrope({
 
 export const metadata = {
   ...getStaticMetadata({
-    title: 'Hamed Akbari – Software Engineer',
+    title: 'Hamed Akbari – Front-End Developer',
     description:
       // eslint-disable-next-line max-len
       "I'm a Passionate and creative front-end developer based in tehran, Iran 🇮🇷. Visit my website to learn more about me and my projects",

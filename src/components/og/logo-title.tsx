@@ -59,7 +59,7 @@ export const PageTitle = (props: {
             }),
       }}
     >
-      {title || pathTitle || 'Hirad Arshadi'}
+      {title || pathTitle || 'Hamed Akbari'}
     </p>
   );
 };

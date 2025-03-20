@@ -30,7 +30,7 @@ export const getStaticMetadata = (data: {
     title,
     description,
     keywords,
-    authors: [{ name: 'Hirad Arshadi', url: 'https://hiradary.me' }],
+    authors: [{ name: 'Hamed Akbari', url: 'https://hiradary.me' }],
     openGraph: {
       title,
       description,
