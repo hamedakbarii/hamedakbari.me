@@ -1,6 +1,16 @@
 [
   {
     "order": 0,
+    "name": "Kalin lash - Online Cosmetics Store",
+    "description": "A modern and responsive e-commerce platform for beauty and skincare products. Kalinlash offers a seamless shopping experience with user-friendly navigation, secure checkout, and product filtering. Built with a focus on elegant design and performance.",
+    "icon": "icons/kalinlash.png",
+    "link": "https://kalinlash.com/",
+    "color": "#0a40fe",
+    "darkColor": "#0a40fe",
+    "hide": false
+  },
+  {
+    "order": 1,
     "name": "User Portfolio",
     "description": "This is how you can introduce your self..",
     "icon": "icons/userportfolio.png",
@@ -10,7 +20,7 @@
     "hide": false
   },
   {
-    "order": 1,
+    "order": 2,
     "name": "Tech Online Store",
     "description": "a beautiful tech online shop that you can watch and buy Computers, Laptops, Monitor and..",
     "icon": "icons/techonline.png",
@@ -20,7 +30,7 @@
     "hide": false
   },
   {
-    "order": 2,
+    "order": 3,
     "name": "Axies NFT MarketPlace",
     "description": "Let's buy NFT with monsters!",
     "icon": "icons/Axies.png",
