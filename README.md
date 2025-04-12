@@ -1,4 +1,4 @@
-# [hiradary.me](https://hiradary.me)
+# [hamedakbari.me](https://hamedakbari-me.vercel.app)
 
 [![GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4)](https://github.com/sponsors/jahirfiquitiva)
 
@@ -67,7 +67,7 @@ yarn
 yarn setup # Remove all of my personal content and files
 ```
 
-Create a `.env` file similar to [`.env.example`](https://github.com/jahirfiquitiva/hiradary.me/blob/main/.env.example).
+Create a `.env` file similar to [`.env.example`](https://github.com/jahirfiquitiva/hamedakbari-me.vercel.app/blob/main/.env.example).
 
 ```bash
 yarn dev
@@ -78,13 +78,13 @@ yarn dev
 <summary>Note</summary>
 
 Some things might be broken or not found because the `yarn setup` script will remove many files.
-Please double check the code and implementations.
+Please double-check the code and implementations.
 
 </details>
 
 ## Cloning / Forking
 
-Please review the [license](https://github.com/jahirfiquitiva/hiradary.me/blob/main/LICENSE), do not copy it directly, remove all of my personal content and files (resume, blog posts, images, etc.) by running `yarn setup` and please change the styling and colors to match your personal brand. You are free to use this code as inspiration or learning reference but this is not really intended to be a template.
+Please review the [license](https://github.com/jahirfiquitiva/hamedakbari-me.vercel.app/blob/main/LICENSE), do not copy it directly, remove all of my personal content and files (resume, blog posts, images, etc.) by running `yarn setup` and please change the styling and colors to match your personal brand. You are free to use this code as inspiration or learning reference but this is not really intended to be a template.
 
 <details>
 
