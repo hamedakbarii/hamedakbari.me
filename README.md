@@ -48,7 +48,7 @@
 - **`src/components/molecules/*`** - The main blocks for the website: `toolbar`, `footer`, `main` layout, `back-to-top` button and `social links`
 - **`src/components/og/*`** - The code that powers dynamic open-graph images generation
 - **`src/components/views/*`** - More complex components to build the different pages of my website. _(They're here to keep `src/app/` as clean as possible)_
-- **`src/data/*`** - JSON files containing data for projects and the [`uses`](https://hiradary.me/uses) page
+- **`src/data/*`** - JSON files containing data for projects and the [`uses`](https://hamedakbri.ir/uses) page
 - **`src/hooks/*`** - A couple hooks used throughout the app
 - **`src/lib/*`** - Short for "library", a collection of helpful utilities or code for external services
 - **`src/providers/*`** - React Contexts for storing the current theme and blog post reactions
@@ -61,8 +61,8 @@
 This application requires Node.js v16.20+.
 
 ```bash
-git clone https://github.com/jahirfiquitiva/hiradary.me.git
-cd hiradary.me
+git clone https://github.com/hamedakbarii/hamedakbari.me.git
+cd hamedakbari.me
 yarn
 yarn setup # Remove all of my personal content and files
 ```

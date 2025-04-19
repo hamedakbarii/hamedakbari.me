@@ -28,7 +28,7 @@ body:
     attributes:
       label: URL
       description: What is the url where the bug is reproducible?
-      placeholder: ex. hiradary.me/about
+      placeholder: ex. hamedakbri.ir/about
     validations:
       required: true
   - type: input
