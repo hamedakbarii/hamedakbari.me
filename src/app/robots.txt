@@ -4,5 +4,5 @@ Disallow: /static/fonts/
 Disallow: /static/js/
 Disallow: /frames/
 Disallow: /share/
-Sitemap: https://hiradary.me/sitemap.xml
-Host: https://hiradary.me
+Sitemap: https://hamedakbri.ir/sitemap.xml
+Host: https://hamedakbri.ir

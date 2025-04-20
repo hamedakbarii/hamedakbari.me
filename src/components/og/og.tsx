@@ -1,7 +1,7 @@
 import 'server-only';
 /* eslint-disable @next/next/no-img-element */
 
-import { LogoOrEmoji, PageTitle, PathName } from './logo-title';
+import { PageTitle, PathName } from './logo-title';
 import { Name } from './name';
 
 const baseUrl =
@@ -10,8 +10,8 @@ const baseUrl =
     : process.env.VERCEL_ENV === 'preview'
     ? process.env.VERCEL_URL
       ? `https://${process.env.VERCEL_URL}`
-      : 'https://hiradary.me'
-    : 'https://hiradary.me';
+      : 'https://hamedakbri.ir'
+    : 'https://hamedakbri.ir';
 
 interface OgImageProps {
   path?: PathName;

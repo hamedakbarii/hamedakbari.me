@@ -31,7 +31,7 @@ export const metadata = getStaticMetadata({
   description:
     // eslint-disable-next-line max-len
     'Support Hamed Akbari. Donate or sponsor him as a recognition for his work on different projects.',
-  exactUrl: 'https://hiradary.me/donate',
+  exactUrl: 'https://hamedakbri.ir/donate',
   keywords: [
     'donate',
     'support',

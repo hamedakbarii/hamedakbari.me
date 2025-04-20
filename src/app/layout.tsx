@@ -61,6 +61,7 @@ export default function RootLayout(props: PropsWithChildren) {
       <head>
         <Meta />
       </head>
+
       <body className={'tablet-sm:overflow-y-auto'}>
         <Providers>
           <Toolbar />

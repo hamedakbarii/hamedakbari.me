@@ -14,7 +14,7 @@ const fetchSelfFeed = async (): Promise<Array<InstagramPost>> => {
         id: post.id,
         caption: post.caption,
         postUrl: post.permalink,
-        photoUrl: `https://sroc.hiradary.me/${post.photo || post.mediaUrl}`,
+        photoUrl: `https://sroc.hamedakbri.ir/${post.photo || post.mediaUrl}`,
       }) as InstagramPost,
   );
 };

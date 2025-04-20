@@ -5,7 +5,7 @@ import { buildOgImageUrl } from './og';
 type MetaImageStyle = 'summary_large_image' | 'summary';
 
 const defaultLogoImage =
-  'https://hiradary.me/static/images/brand/logo-full-me.png';
+  'https://hamedakbri.ir/static/images/brand/logo-full-me.png';
 
 export const getStaticMetadata = (data: {
   title: string;
@@ -21,6 +21,7 @@ export const getStaticMetadata = (data: {
   const actualDefaultImage =
     metaImageStyle === 'summary' ? defaultLogoImage : buildOgImageUrl();
   const actualImage = image || actualDefaultImage;
+
   const actualMetaImageStyle =
     actualImage === defaultLogoImage
       ? 'summary'
@@ -30,11 +31,11 @@ export const getStaticMetadata = (data: {
     title,
     description,
     keywords,
-    authors: [{ name: 'Hamed Akbari', url: 'https://hiradary.me' }],
+    authors: [{ name: 'Hamed Akbari', url: 'https://hamedakbri.ir' }],
     openGraph: {
       title,
       description,
-      url: exactUrl || 'https://hiradary.me',
+      url: exactUrl || 'https://hamedakbri.ir',
       siteName: title,
       images: [{ url: actualImage }],
       locale: 'en_US',
@@ -45,10 +46,10 @@ export const getStaticMetadata = (data: {
       description,
       images: [{ url: actualImage }],
       card: actualMetaImageStyle,
-      creator: '@hiradary',
-      site: '@hiradary',
+      creator: '@hamedakbarii',
+      site: '@hamedakbarii',
     },
-    metadataBase: new URL('https://hiradary.me'),
+    metadataBase: new URL('https://hamedakbri.ir'),
   };
 };
 
