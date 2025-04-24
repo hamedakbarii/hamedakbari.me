@@ -78,7 +78,6 @@ export const OgImage = (props: OgImageProps) => {
           bottom: 0,
         }}
       />
-
       {/* <LogoOrEmoji path={path} /> */}
       <PageTitle path={path} title={title} />
       <Name path={path} />
