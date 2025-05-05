@@ -30,7 +30,23 @@ export const Skills = () => {
                   )}
                   style={{ '--skill-color': color } as CSSProperties}
                 >
-                  <Icon path={skill.iconPath} size={0.8} />
+                  {skill.iconPath ? (
+                    <Icon
+                      path={skill.iconPath}
+                      size={0.8}
+                      color={skill.color}
+                    />
+                  ) : skill.iconUrl ? (
+                    <img
+                      src={skill.iconUrl}
+                      alt={skill.name}
+                      width={19}
+                      height={19}
+                      style={{ marginRight: '0.4rem' }}
+                    />
+                  ) : skill.iconComponent ? (
+                    <skill.iconComponent color={skill.color} size={19} />
+                  ) : null}
                   <span className={'font-[500]'}>{skill.name}</span>
                 </Chip>
               </li>

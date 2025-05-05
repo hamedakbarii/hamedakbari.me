@@ -14,6 +14,7 @@
     "postinstall": "is-ci"
   },
   "dependencies": {
+    "@mdi/js": "^7.4.47",
     "@mdi/react": "^1.6.1",
     "@planetscale/database": "^1.10.0",
     "@vercel/analytics": "^1.0.2",
@@ -29,6 +30,7 @@
     "react": "^18.2.0",
     "react-compare-image": "^3.4.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
     "react-wrap-balancer": "^1.0.0",
     "server-only": "^0.0.1",
     "swr": "^2.2.0"

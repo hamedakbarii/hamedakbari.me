@@ -2,7 +2,7 @@
   {
     "order": 0,
     "name": "Kalin lash - Online Cosmetics Store",
-    "description": "A modern and responsive e-commerce platform for beauty and skincare products. Kalinlash offers a seamless shopping experience with user-friendly navigation, secure checkout, and product filtering. Built with a focus on elegant design and performance.",
+    "description": "An e-commerce app for browsing and buying cosmetic products. Features cart functionality, filtering, and local storage support.",
     "icon": "icons/kalinlash.png",
     "link": "https://kalinlash.com/",
     "color": "#0a40fe",
@@ -12,7 +12,7 @@
   {
     "order": 1,
     "name": "User Portfolio",
-    "description": "This is how you can introduce your self..",
+    "description": "A clean, responsive portfolio site to showcase my skills and projects. Includes smooth animations, mobile-friendly design, and fast performance.",
     "icon": "icons/userportfolio.png",
     "link": "https://user-portfolio-eta.vercel.app/",
     "color": "#0a40fe",
@@ -22,7 +22,7 @@
   {
     "order": 2,
     "name": "Tech Online Store",
-    "description": "a beautiful tech online shop that you can watch and buy Computers, Laptops, Monitor and..",
+    "description": "A modern tech product showcase with a responsive grid layout and smooth UI. Built for speed, clarity, and scalability.",
     "icon": "icons/techonline.png",
     "link": "https://tech-online.vercel.app/",
     "color": "#822EC4",
@@ -32,7 +32,7 @@
   {
     "order": 3,
     "name": "Axies NFT MarketPlace",
-    "description": "Let's buy NFT with monsters!",
+    "description": "A responsive NFT marketplace landing page inspired by Axie Infinity. Features engaging layout, modern styling, and mobile-friendly design.",
     "icon": "icons/Axies.png",
     "link": "https://hamedakbarii.github.io/Axies-NFT-Market-Place/",
     "repo": "Axies",
