@@ -1,4 +1,4 @@
-import { LogoAnimoji } from '@/components/core/logo-animoji';
+// import { LogoAnimoji } from '@/components/core/logo-animoji';
 import { SocialLinks } from '@/components/molecules/social-links';
 
 import {

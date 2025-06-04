@@ -69,3 +69,7 @@ module.exports = million.next(
   withContentlayer(defaultNextConfig),
   millionConfig,
 );
+
+module.exports = {
+  output: 'export',
+};

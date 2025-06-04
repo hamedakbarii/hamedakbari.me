@@ -3,13 +3,13 @@ import Icon from '@mdi/react';
 import { Heading } from '@/components/core/heading';
 import { ButtonLink } from '@/components/core/link';
 import {
-  gift,
+  // gift,
   mdiCreditCardChipOutline,
-  mdiHeartOutline,
+  // mdiHeartOutline,
   mdiPizza,
 } from '@/components/icons';
 
-import { AmazonLink, GitHubSponsorsLink, PayPalLink } from './buttons.styles';
+import { PayPalLink } from './buttons.styles';
 
 export const DonateButtons = () => {
   return (

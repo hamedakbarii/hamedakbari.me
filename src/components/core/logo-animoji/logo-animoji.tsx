@@ -1,6 +1,6 @@
 import animojiImage from '@/assets/images/animoji.png';
 
-import { Container, StyledLogo, StyledImg } from './logo-animoji.styles';
+import { Container, StyledImg } from './logo-animoji.styles';
 
 export const LogoAnimoji = () => (
   <Container>
