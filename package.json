@@ -4,14 +4,15 @@
     "dev": "contentlayer dev & next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
+    "deploy": "npm run build && npm run export",
     "lint": "next lint",
     "prebuild": "yarn clean && yarn themes && contentlayer build --clearCache",
     "setup": "cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/setup.mjs",
     "clean": "rimraf .next && rimraf dist && rimraf out && rimraf .contentlayer",
     "update-deps": "npx --yes npm-check-updates -u && yarn",
     "themes": "cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/code-themes.mjs",
-    "prune-code": "ts-prune -i '.contentlayer|src/app'",
-    "postinstall": "is-ci"
+    "prune-code": "ts-prune -i '.contentlayer|src/app'"
   },
   "dependencies": {
     "@mdi/js": "^7.4.47",
@@ -58,7 +59,6 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "image-size": "^1.0.2",
-    "is-ci": "^3.0.1",
     "plaiceholder": "^3.0.0",
     "postcss": "^8.4.27",
     "prettier": "^3.0.1",
