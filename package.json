@@ -7,10 +7,10 @@
     "export": "next export",
     "deploy": "npm run build && npm run export",
     "lint": "next lint",
-    "prebuild": "yarn clean && yarn themes && contentlayer build --clearCache",
+    "prebuild": "npm run clean && npm run themes && contentlayer build --clearCache",
     "setup": "cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/setup.mjs",
     "clean": "rimraf .next && rimraf dist && rimraf out && rimraf .contentlayer",
-    "update-deps": "npx --yes npm-check-updates -u && yarn",
+    "update-deps": "npx --yes npm-check-updates -u && npm install",
     "themes": "cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/code-themes.mjs",
     "prune-code": "ts-prune -i '.contentlayer|src/app'"
   },
