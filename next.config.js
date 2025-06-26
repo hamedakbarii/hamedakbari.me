@@ -10,6 +10,7 @@ const redirects = require('./config/next/redirects');
  * @type {import('next').NextConfig}
  */
 const defaultNextConfig = {
+  output: 'export',
   swcMinify: true,
   reactStrictMode: true,
   compress: true,

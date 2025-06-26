@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "npm run build && npm run export",
+    "deploy": "npm run build",
     "lint": "next lint",
     "prebuild": "npm run clean && npm run themes && contentlayer build --clearCache",
     "setup": "cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/setup.mjs",
