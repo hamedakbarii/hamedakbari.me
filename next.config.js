@@ -55,9 +55,9 @@ const defaultNextConfig = {
   async headers() {
     return appHeaders;
   },
-  async redirects() {
-    return redirects;
-  },
+  // async redirects() {
+  //   return redirects;
+  // },
 };
 
 const millionConfig = {
