@@ -4,8 +4,6 @@ const million = require('million/compiler');
 const { withContentlayer } = require('next-contentlayer');
 
 const appHeaders = require('./config/next/headers');
-// ❌ این خط رو کامل حذف کن:
-// const redirects = require('./config/next/redirects');
 
 /**
  * @type {import('next').NextConfig}
