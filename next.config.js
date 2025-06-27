@@ -4,7 +4,7 @@ const million = require('million/compiler');
 const { withContentlayer } = require('next-contentlayer');
 
 const appHeaders = require('./config/next/headers');
-const redirects = require('./config/next/redirects');
+// const redirects = require('./config/next/redirects');
 
 /**
  * @type {import('next').NextConfig}
