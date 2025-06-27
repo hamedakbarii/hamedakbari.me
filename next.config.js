@@ -4,6 +4,7 @@ const million = require('million/compiler');
 const { withContentlayer } = require('next-contentlayer');
 
 const appHeaders = require('./config/next/headers');
+// ❌ این خط رو کامل حذف کن:
 // const redirects = require('./config/next/redirects');
 
 /**
@@ -16,7 +17,7 @@ const defaultNextConfig = {
   compress: true,
   crossOrigin: 'anonymous',
   images: {
-    unoptimized: true, // 🔸 برای export
+    unoptimized: true,
     remotePatterns: [
       { hostname: 'images.unsplash.com' },
       { hostname: 'i.scdn.co' },
@@ -55,9 +56,6 @@ const defaultNextConfig = {
   async headers() {
     return appHeaders;
   },
-  // async redirects() {
-  //   return redirects;
-  // },
 };
 
 const millionConfig = {
