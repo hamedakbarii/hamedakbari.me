@@ -3,7 +3,7 @@ const path = require('path');
 const million = require('million/compiler');
 const { withContentlayer } = require('next-contentlayer');
 
-const appHeaders = require('./config/next/headers');
+// const appHeaders = require('./config/next/headers');
 
 /**
  * @type {import('next').NextConfig}
@@ -51,9 +51,9 @@ const defaultNextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'src/styles')],
   },
-  async headers() {
-    return appHeaders;
-  },
+  // async headers() {
+  //   return appHeaders;
+  // },
 };
 
 const millionConfig = {
