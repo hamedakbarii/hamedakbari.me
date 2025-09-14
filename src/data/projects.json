@@ -39,5 +39,16 @@
     "color": "#4d8af0",
     "darkColor": "#4d8af0",
     "hide": false
+  },
+  {
+    "order": 4,
+    "name": "Runner Game",
+    "description": "Runner Game – A 2D browser game built with JavaScript & Phaser.js, featuring responsive controls, coin collection, enemy AI, and high score tracking.",
+    "icon": "icons/runnerGame.png",
+    "link": "https://hamedakbarii.github.io/Runner-game/",
+    "repo": "RunnerGame",
+    "color": "#4d8af0",
+    "darkColor": "#4d8af0",
+    "hide": false
   }
 ]
