@@ -1,16 +1,26 @@
 [
   {
     "order": 0,
-    "name": "Kalin lash - Online Cosmetics Store",
-    "description": "An e-commerce app for browsing and buying cosmetic products. Features cart functionality, filtering, and local storage support.",
-    "icon": "icons/kalinlash.png",
-    "link": "https://kalinlash.com/",
+    "name": "Telegram Clone",
+    "description": "Telegram Clone – Built a responsive Telegram UI clone with Next.js, TailwindCSS, and Zustand, featuring chat list, user profile, and dark/light mode.",
+    "icon": "icons/telegram.jpg",
+    "link": "https://telegram-clone-three-lyart.vercel.app",
     "color": "#0a40fe",
     "darkColor": "#0a40fe",
     "hide": false
   },
   {
     "order": 1,
+    "name": "Kalin lash - Online Cosmetics Store",
+    "description": "An e-commerce app for browsing and buying cosmetic products. Features cart functionality, filtering, and local storage support.",
+    "icon": "icons/kalinlash.png",
+    "link": "https://kalinlash.com/",
+    "color": "#822EC4",
+    "darkColor": "#C23D93",
+    "hide": false
+  },
+  {
+    "order": 2,
     "name": "User Portfolio",
     "description": "A clean, responsive portfolio site to showcase my skills and projects. Includes smooth animations, mobile-friendly design, and fast performance.",
     "icon": "icons/userportfolio.png",
@@ -20,7 +30,7 @@
     "hide": false
   },
   {
-    "order": 2,
+    "order": 3,
     "name": "Tech Online Store",
     "description": "A modern tech product showcase with a responsive grid layout and smooth UI. Built for speed, clarity, and scalability.",
     "icon": "icons/techonline.png",
@@ -30,7 +40,7 @@
     "hide": false
   },
   {
-    "order": 3,
+    "order": 4,
     "name": "Axies NFT MarketPlace",
     "description": "A responsive NFT marketplace landing page inspired by Axie Infinity. Features engaging layout, modern styling, and mobile-friendly design.",
     "icon": "icons/Axies.png",
@@ -41,7 +51,7 @@
     "hide": false
   },
   {
-    "order": 4,
+    "order": 5,
     "name": "Runner Game",
     "description": "Runner Game – A 2D browser game built with JavaScript & Phaser.js, featuring responsive controls, coin collection, enemy AI, and high score tracking.",
     "icon": "icons/runnerGame.png",
