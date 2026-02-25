@@ -37,8 +37,10 @@ export const Intro = () => {
               Hamed Akbari
             </Heading>
           </Heading>
+
           <WavingHello />
         </TitlesContainer>
+
         <IntroParagraph>
           Passionate and creative front-end developer based in{' '}
           <Link
@@ -48,11 +50,13 @@ export const Intro = () => {
             tehran, Iran 🇮🇷
           </Link>
         </IntroParagraph>
+
         <div className={'flex items-center gap-16 flex-wrap'}>
           <ButtonLink title={'About page'} href={'/about'}>
             <Icon path={mdiAccountCircleOutline} size={1} />
             More about me
           </ButtonLink>
+
           <div
             className={cx(
               'flex items-center transition-colors',
@@ -65,9 +69,10 @@ export const Intro = () => {
           </div>
         </div>
       </TextsContainer>
+
       <PhotoContainer>
         <Photo
-          src={'/static/images/hamed/hamed-2.jpg'}
+          src={'/static/images/hamed/hamed-4.jpg'}
           alt={"Hamed's Photo"}
           size={168}
           priority
